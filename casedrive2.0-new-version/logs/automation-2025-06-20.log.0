@@ -1,0 +1,2495 @@
+Jun 20, 2025 11:07:00 AM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-20.log
+Jun 20, 2025 11:07:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 11:07:03 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 11:07:03 AM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 11:07:43 AM stepdefinition.OrderIntake theClientSeesTheOrderPlacedSuccessMessageAndIsRedirectedToTheCaseListPage
+INFO: Order success status: true
+Jun 20, 2025 11:07:43 AM stepdefinition.OrderIntake finallyVerifiesWhetherTheEnteredCaseNumberIsBeingReflectedInTheCaselistPage
+INFO: Case number matches expected prefix: true
+Jun 20, 2025 11:07:43 AM stepdefinition.OrderIntake finallyVerifiesWhetherTheEnteredCaseNumberIsBeingReflectedInTheCaselistPage
+INFO: Actual case number: AUTO_110736
+Jun 20, 2025 11:07:44 AM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Status: Estimation in Process
+Jun 20, 2025 11:07:44 AM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Version: New Case
+Jun 20, 2025 11:07:44 AM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Priority: Standard
+Jun 20, 2025 11:07:44 AM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: One or more conditions do not match.
+Jun 20, 2025 11:07:45 AM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+Jun 20, 2025 11:07:56 AM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: New Case from LDTM001-C241
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: New Case from LDTM001-C241
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-06-20T05:40:39.000Z
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: info@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: info@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → no-reply@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → mail@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff2@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff19@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff20@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff492@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff493@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff494@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff503@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff506@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff622@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → managermailtest@gmail.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20164941@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee900@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4473@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4177@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee108@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee106@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8254@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5901@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee7215@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee683@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4787@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9016@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6695@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5134@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9450@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5464@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4461@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee551@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4397@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6590@lezdotechmed.com
+Jun 20, 2025 11:07:57 AM mailtrap.MailTrapAPI fetchAndLogEmailContent
+INFO: Extracted Content:
+New Case Received
+
+
+
+
+LDTM001-C241 has uploaded a new case. The particulars of the case are as follows: Case Name: Anna  Test_0620110735Order Date: 06-20-2025 Priority: Standard  Desired Services: Medical Chronology,Missing Record Identification,Medical Chronology & Narrative Summary&nbsp;
+Jun 20, 2025 11:07:58 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 11:07:58 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 11:07:58 AM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 11:08:23 AM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleDOCFile_200kb.doc added for upload.
+Jun 20, 2025 11:08:23 AM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleGIFImage_40kbmb.gif added for upload.
+Jun 20, 2025 11:08:23 AM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePDFFile_5mb.pdf added for upload.
+Jun 20, 2025 11:08:24 AM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePNGImage_100kbmb.png added for upload.
+Jun 20, 2025 11:08:24 AM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePPTFile_500kb.ppt added for upload.
+Jun 20, 2025 11:08:24 AM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePSDFile_1.9mbmb.psd added for upload.
+Jun 20, 2025 11:08:24 AM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleTextFile_10kb.txt added for upload.
+Jun 20, 2025 11:08:29 AM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: FileUpload Completed 100%: 100
+Jun 20, 2025 11:08:41 AM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: Unable to find enough file upload confirmation elements.
+Jun 20, 2025 11:08:42 AM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File upload confirmation 7 is visible.
+Jun 20, 2025 11:08:50 AM stepdefinition.OrderIntake theClientSeesTheOrderPlacedSuccessMessageAndIsRedirectedToTheCaseListPage
+INFO: Order success status: true
+Jun 20, 2025 11:08:51 AM stepdefinition.OrderIntake finallyVerifiesWhetherTheCaseNumberIsGeneratedAutomaticallyInTheCaselistPage
+INFO: Case number matches expected prefix: true
+Jun 20, 2025 11:08:51 AM stepdefinition.OrderIntake finallyVerifiesWhetherTheCaseNumberIsGeneratedAutomaticallyInTheCaselistPage
+INFO: Actual case number: LDML-9893
+Jun 20, 2025 11:08:52 AM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Status: Open
+Jun 20, 2025 11:08:52 AM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Version: New Case
+Jun 20, 2025 11:08:52 AM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Priority: Standard
+Jun 20, 2025 11:08:52 AM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: All conditions are met. The case status, version, and priority are correct.
+Jun 20, 2025 11:08:53 AM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: New Case from LDTM001-C241
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: New Case from LDTM001-C241
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-06-20T05:40:39.000Z
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: info@lezdotechmed.com
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: info@lezdotechmed.com
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → no-reply@lezdotechmed.com
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → mail@lezdotechmed.com
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff2@lezdotechmed.com
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff19@lezdotechmed.com
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff20@lezdotechmed.com
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff492@lezdotechmed.com
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff493@lezdotechmed.com
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff494@lezdotechmed.com
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff503@lezdotechmed.com
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff506@lezdotechmed.com
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff622@lezdotechmed.com
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → managermailtest@gmail.com
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20164941@lezdotechmed.com
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee900@lezdotechmed.com
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4473@lezdotechmed.com
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4177@lezdotechmed.com
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee108@lezdotechmed.com
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee106@lezdotechmed.com
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8254@lezdotechmed.com
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5901@lezdotechmed.com
+Jun 20, 2025 11:09:03 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee7215@lezdotechmed.com
+Jun 20, 2025 11:09:04 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee683@lezdotechmed.com
+Jun 20, 2025 11:09:04 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4787@lezdotechmed.com
+Jun 20, 2025 11:09:04 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9016@lezdotechmed.com
+Jun 20, 2025 11:09:04 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6695@lezdotechmed.com
+Jun 20, 2025 11:09:04 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5134@lezdotechmed.com
+Jun 20, 2025 11:09:04 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9450@lezdotechmed.com
+Jun 20, 2025 11:09:04 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5464@lezdotechmed.com
+Jun 20, 2025 11:09:04 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4461@lezdotechmed.com
+Jun 20, 2025 11:09:04 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee551@lezdotechmed.com
+Jun 20, 2025 11:09:04 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4397@lezdotechmed.com
+Jun 20, 2025 11:09:04 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6590@lezdotechmed.com
+Jun 20, 2025 11:09:04 AM mailtrap.MailTrapAPI fetchAndLogEmailContent
+INFO: Extracted Content:
+New Case Received
+
+
+
+
+LDTM001-C241 has uploaded a new case. The particulars of the case are as follows: Case Name: Anna  Test_0620110735Order Date: 06-20-2025 Priority: Standard  Desired Services: Medical Chronology,Missing Record Identification,Medical Chronology & Narrative Summary&nbsp;
+Jun 20, 2025 11:09:05 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 11:09:05 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 11:09:05 AM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 11:09:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 11:09:31 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 11:09:31 AM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 11:10:00 AM stepdefinition.AdditionalCases theCaseWiseClientVerifiesWhetherTheSelectedServicesAreCorrect
+INFO: Third service found: Medical Chronology & Narrative Summary
+Jun 20, 2025 11:10:00 AM stepdefinition.AdditionalCases theCaseWiseClientVerifiesWhetherTheSelectedServicesAreCorrect
+INFO: Service found: Medical Chronology
+Jun 20, 2025 11:10:00 AM stepdefinition.AdditionalCases theCaseWiseClientVerifiesWhetherTheSelectedServicesAreCorrect
+INFO: Test Passed: At least one expected service is present.
+Jun 20, 2025 11:10:06 AM stepdefinition.AdditionalCases theClientSeesTheAdditionalCaseSuccessMessageAndIsRedirectedToTheCaseListPage
+INFO: Order success status: true
+Jun 20, 2025 11:10:07 AM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Status: Open
+Jun 20, 2025 11:10:07 AM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Version: Additional - 1
+Jun 20, 2025 11:10:07 AM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Priority: Expedited
+Jun 20, 2025 11:10:07 AM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: All conditions are met. The case status, version, and priority are correct.
+Jun 20, 2025 11:10:08 AM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: Additional Case from LDTM001-C241
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: Additional Case from LDTM001-C241
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-06-20T05:42:59.000Z
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: info@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: info@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → no-reply@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → mail@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff2@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff19@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff20@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff492@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff493@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff494@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff503@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff506@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff622@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → managermailtest@gmail.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20164941@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee900@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4473@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4177@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee108@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee106@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8254@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5901@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee7215@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee683@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4787@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9016@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6695@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5134@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9450@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5464@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4461@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee551@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4397@lezdotechmed.com
+Jun 20, 2025 11:10:19 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6590@lezdotechmed.com
+Jun 20, 2025 11:10:20 AM mailtrap.MailTrapAPI fetchAndLogEmailContent
+INFO: Extracted Content:
+LDTM001-C241 has uploaded a additional case. The particulars of the case are as follows: Case Name: Anna  Test_0620110843/Additional/1Order Date: 06-20-2025 Priority: Expedited  Desired Services: Medical Chronology,Missing Record Identification,Medical Chronology & Narrative Summary
+Jun 20, 2025 11:10:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 11:10:21 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 11:10:21 AM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 11:10:51 AM stepdefinition.AdditionalCases theCaseWiseClientVerifiesWhetherTheSelectedServicesAreCorrect
+INFO: Third service found: Medical Chronology & Narrative Summary
+Jun 20, 2025 11:10:51 AM stepdefinition.AdditionalCases theCaseWiseClientVerifiesWhetherTheSelectedServicesAreCorrect
+INFO: Service found: Medical Chronology
+Jun 20, 2025 11:10:51 AM stepdefinition.AdditionalCases theCaseWiseClientVerifiesWhetherTheSelectedServicesAreCorrect
+INFO: Test Passed: At least one expected service is present.
+Jun 20, 2025 11:10:52 AM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleDOCFile_200kb.doc added for upload.
+Jun 20, 2025 11:10:52 AM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleGIFImage_40kbmb.gif added for upload.
+Jun 20, 2025 11:10:52 AM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePDFFile_5mb.pdf added for upload.
+Jun 20, 2025 11:10:52 AM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePNGImage_100kbmb.png added for upload.
+Jun 20, 2025 11:10:53 AM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePPTFile_500kb.ppt added for upload.
+Jun 20, 2025 11:10:53 AM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePSDFile_1.9mbmb.psd added for upload.
+Jun 20, 2025 11:10:53 AM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleTextFile_10kb.txt added for upload.
+Jun 20, 2025 11:10:57 AM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: FileUpload Completed 100%: 100
+Jun 20, 2025 11:11:09 AM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: Unable to find enough file upload confirmation elements.
+Jun 20, 2025 11:11:09 AM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File upload confirmation 7 is visible.
+Jun 20, 2025 11:11:20 AM stepdefinition.AdditionalCases theClientSeesTheAdditionalCaseSuccessMessageAndIsRedirectedToTheCaseListPage
+INFO: Order success status: true
+Jun 20, 2025 11:11:21 AM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Status: Open
+Jun 20, 2025 11:11:21 AM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Version: Additional - 2
+Jun 20, 2025 11:11:21 AM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Priority: Expedited
+Jun 20, 2025 11:11:21 AM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: All conditions are met. The case status, version, and priority are correct.
+Jun 20, 2025 11:11:22 AM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: Additional Case from LDTM001-C241
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: Additional Case from LDTM001-C241
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-06-20T05:44:13.000Z
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: info@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: info@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → no-reply@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → mail@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff2@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff19@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff20@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff492@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff493@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff494@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff503@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff506@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff622@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → managermailtest@gmail.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20164941@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee900@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4473@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4177@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee108@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee106@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8254@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5901@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee7215@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee683@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4787@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9016@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6695@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5134@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9450@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5464@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4461@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee551@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4397@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6590@lezdotechmed.com
+Jun 20, 2025 11:11:34 AM mailtrap.MailTrapAPI fetchAndLogEmailContent
+INFO: Extracted Content:
+LDTM001-C241 has uploaded a additional case. The particulars of the case are as follows: Case Name: Anna  Test_0620110843/Additional/2Order Date: 06-20-2025 Priority: Expedited  Desired Services: Medical Chronology,Missing Record Identification,Medical Chronology & Narrative Summary
+Jun 20, 2025 11:11:36 AM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+Jun 20, 2025 11:59:45 AM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-20.log
+Jun 20, 2025 11:59:48 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 11:59:48 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 11:59:48 AM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 12:00:32 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-20.log
+Jun 20, 2025 12:00:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 12:00:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 12:00:34 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 12:01:23 PM baseclass.LibGlobal clickWithRetry
+INFO: Exception encountered. Retrying... Attempts left: 2
+Jun 20, 2025 12:01:43 PM baseclass.LibGlobal clickWithRetry
+INFO: Exception encountered. Retrying... Attempts left: 1
+Jun 20, 2025 12:02:03 PM baseclass.LibGlobal clickWithRetry
+INFO: Exception encountered. Retrying... Attempts left: 0
+Jun 20, 2025 12:02:03 PM baseclass.LibGlobal clickWithRetry
+INFO: Failed to click after retries.
+Jun 20, 2025 12:02:06 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+Jun 20, 2025 12:06:31 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-20.log
+Jun 20, 2025 12:06:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 12:06:33 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 12:06:34 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 12:06:57 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+Jun 20, 2025 12:07:50 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-20.log
+Jun 20, 2025 12:07:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 12:07:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 12:07:54 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 12:08:22 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+Jun 20, 2025 12:29:17 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-20.log
+Jun 20, 2025 12:29:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 12:29:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 12:29:20 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 12:30:21 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-20.log
+Jun 20, 2025 12:30:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 12:30:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 12:30:24 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 12:31:17 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+Jun 20, 2025 12:33:03 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-20.log
+Jun 20, 2025 12:33:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 12:33:06 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 12:33:06 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 12:33:48 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+Jun 20, 2025 12:35:53 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-20.log
+Jun 20, 2025 12:35:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 12:35:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 12:35:56 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 12:36:49 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+Jun 20, 2025 12:42:11 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-20.log
+Jun 20, 2025 12:42:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 12:42:13 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 12:42:14 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 12:42:47 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+Jun 20, 2025 12:44:01 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-20.log
+Jun 20, 2025 12:44:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 12:44:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 12:44:04 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 12:44:35 PM stepdefinition.OrderIntake selectsReviewServicesAndClicksTheNextButton
+INFO: Error occurred during service selection or clicking next: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='free-solo-2-demo-option-2'][@tabindex='-1']"}
+  (Session info: chrome=137.0.7151.105)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5886b2934cffbf468f5edac216f835b2, findElement {value=//div[@id='free-solo-2-demo-option-2'][@tabindex='-1'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.105, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61416}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61416/devtoo..., se:cdpVersion: 137.0.7151.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5886b2934cffbf468f5edac216f835b2
+Jun 20, 2025 12:44:35 PM stepdefinition.OrderIntake selectsReviewServicesAndClicksTheNextButton
+INFO: Retry attempt 1
+Jun 20, 2025 12:44:56 PM stepdefinition.OrderIntake selectsReviewServicesAndClicksTheNextButton
+INFO: Error occurred during service selection or clicking next: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@id='free-solo-2-demo-option-0'][@tabindex='-1']' (tried for 20 second(s) with 500 milliseconds interval)
+Jun 20, 2025 12:44:56 PM stepdefinition.OrderIntake selectsReviewServicesAndClicksTheNextButton
+INFO: Retry attempt 2
+Jun 20, 2025 12:44:57 PM stepdefinition.OrderIntake selectsReviewServicesAndClicksTheNextButton
+INFO: Second service not found, clicking next button instead.
+Jun 20, 2025 12:44:58 PM stepdefinition.OrderIntake selectsReviewServicesAndClicksTheNextButton
+INFO: Error occurred during service selection or clicking next: element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-save MuiButton-savePrimary MuiButton-sizeMedium MuiButton-saveSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-save MuiButton-savePrimary MuiButton-sizeMedium MuiButton-saveSizeMedium MuiButton-colorPrimary my-4 css-141wkrm" tabindex="0" type="button">...</button> is not clickable at point (431, 534). Other element would receive the click: <div style="position: relative; height: 50px; overflow: auto; will-change: transform; direction: ltr; outline: none;">...</div>
+  (Session info: chrome=137.0.7151.105)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5886b2934cffbf468f5edac216f835b2, clickElement {id=f.478A7A5BB98E6B7B444E7CE9909F5A2B.d.AEF7DD7F91194A5FD354629128076C0D.e.169}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.105, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61416}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61416/devtoo..., se:cdpVersion: 137.0.7151.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5886b2934cffbf468f5edac216f835b2)] -> xpath: //button[contains(text(),'Next')]]
+Session ID: 5886b2934cffbf468f5edac216f835b2
+Jun 20, 2025 12:44:58 PM stepdefinition.OrderIntake selectsReviewServicesAndClicksTheNextButton
+INFO: Maximum retry attempts reached, stopping execution.
+Jun 20, 2025 12:45:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 12:45:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 12:45:00 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 12:45:33 PM stepdefinition.OrderIntake selectsReviewServicesAndClicksTheNextButton
+INFO: Error occurred during service selection or clicking next: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='free-solo-2-demo-option-2'][@tabindex='-1']"}
+  (Session info: chrome=137.0.7151.105)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bd7876dfc3be4b052d63fe6d7694987c, findElement {value=//div[@id='free-solo-2-demo-option-2'][@tabindex='-1'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.105, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61526}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61526/devtoo..., se:cdpVersion: 137.0.7151.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bd7876dfc3be4b052d63fe6d7694987c
+Jun 20, 2025 12:45:33 PM stepdefinition.OrderIntake selectsReviewServicesAndClicksTheNextButton
+INFO: Retry attempt 1
+Jun 20, 2025 12:45:53 PM stepdefinition.OrderIntake selectsReviewServicesAndClicksTheNextButton
+INFO: Error occurred during service selection or clicking next: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@id='free-solo-2-demo-option-0'][@tabindex='-1']' (tried for 20 second(s) with 500 milliseconds interval)
+Jun 20, 2025 12:45:53 PM stepdefinition.OrderIntake selectsReviewServicesAndClicksTheNextButton
+INFO: Retry attempt 2
+Jun 20, 2025 12:45:54 PM stepdefinition.OrderIntake selectsReviewServicesAndClicksTheNextButton
+INFO: Second service not found, clicking next button instead.
+Jun 20, 2025 12:45:56 PM stepdefinition.OrderIntake selectsReviewServicesAndClicksTheNextButton
+INFO: Error occurred during service selection or clicking next: element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-save MuiButton-savePrimary MuiButton-sizeMedium MuiButton-saveSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-save MuiButton-savePrimary MuiButton-sizeMedium MuiButton-saveSizeMedium MuiButton-colorPrimary my-4 css-141wkrm" tabindex="0" type="button">...</button> is not clickable at point (431, 534). Other element would receive the click: <div style="position: relative; height: 50px; overflow: auto; will-change: transform; direction: ltr; outline: none;">...</div>
+  (Session info: chrome=137.0.7151.105)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bd7876dfc3be4b052d63fe6d7694987c, clickElement {id=f.42BF63F87E617444B70DFE96ED8B2F2F.d.19BFA820C679E6C903DB2E7959E02AC9.e.157}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.105, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61526}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61526/devtoo..., se:cdpVersion: 137.0.7151.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bd7876dfc3be4b052d63fe6d7694987c)] -> xpath: //button[contains(text(),'Next')]]
+Session ID: bd7876dfc3be4b052d63fe6d7694987c
+Jun 20, 2025 12:45:56 PM stepdefinition.OrderIntake selectsReviewServicesAndClicksTheNextButton
+INFO: Maximum retry attempts reached, stopping execution.
+Jun 20, 2025 12:45:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 12:45:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 12:45:58 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 12:46:36 PM stepdefinition.OrderIntake selectsReviewServicesAndClicksTheNextButton
+INFO: Error occurred during service selection or clicking next: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='free-solo-2-demo-option-2'][@tabindex='-1']"}
+  (Session info: chrome=137.0.7151.105)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86c62fc1ba84b8ddea1df38643ec21c1, findElement {value=//div[@id='free-solo-2-demo-option-2'][@tabindex='-1'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.105, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61643}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61643/devtoo..., se:cdpVersion: 137.0.7151.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86c62fc1ba84b8ddea1df38643ec21c1
+Jun 20, 2025 12:46:36 PM stepdefinition.OrderIntake selectsReviewServicesAndClicksTheNextButton
+INFO: Retry attempt 1
+Jun 20, 2025 12:46:56 PM stepdefinition.OrderIntake selectsReviewServicesAndClicksTheNextButton
+INFO: Error occurred during service selection or clicking next: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@id='free-solo-2-demo-option-0'][@tabindex='-1']' (tried for 20 second(s) with 500 milliseconds interval)
+Jun 20, 2025 12:46:56 PM stepdefinition.OrderIntake selectsReviewServicesAndClicksTheNextButton
+INFO: Retry attempt 2
+Jun 20, 2025 12:46:57 PM stepdefinition.OrderIntake selectsReviewServicesAndClicksTheNextButton
+INFO: Second service not found, clicking next button instead.
+Jun 20, 2025 12:46:59 PM stepdefinition.OrderIntake selectsReviewServicesAndClicksTheNextButton
+INFO: Error occurred during service selection or clicking next: element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-save MuiButton-savePrimary MuiButton-sizeMedium MuiButton-saveSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-save MuiButton-savePrimary MuiButton-sizeMedium MuiButton-saveSizeMedium MuiButton-colorPrimary my-4 css-141wkrm" tabindex="0" type="button">...</button> is not clickable at point (431, 534). Other element would receive the click: <div style="position: relative; height: 50px; overflow: auto; will-change: transform; direction: ltr; outline: none;">...</div>
+  (Session info: chrome=137.0.7151.105)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86c62fc1ba84b8ddea1df38643ec21c1, clickElement {id=f.3923B51C271420C6AA6C1F247EFE4BE1.d.0842C3FA71B5E4D0A4E40D92ADC33706.e.160}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.105, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\benish.s\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61643}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61643/devtoo..., se:cdpVersion: 137.0.7151.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (86c62fc1ba84b8ddea1df38643ec21c1)] -> xpath: //button[contains(text(),'Next')]]
+Session ID: 86c62fc1ba84b8ddea1df38643ec21c1
+Jun 20, 2025 12:46:59 PM stepdefinition.OrderIntake selectsReviewServicesAndClicksTheNextButton
+INFO: Maximum retry attempts reached, stopping execution.
+Jun 20, 2025 12:47:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 12:47:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 12:47:01 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 12:51:12 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-20.log
+Jun 20, 2025 12:51:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 12:51:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 12:51:16 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 12:52:06 PM stepdefinition.OrderIntake theClientSeesTheOrderPlacedSuccessMessageAndIsRedirectedToTheCaseListPage
+INFO: Order success status: true
+Jun 20, 2025 12:52:07 PM stepdefinition.OrderIntake finallyVerifiesWhetherTheEnteredCaseNumberIsBeingReflectedInTheCaselistPage
+INFO: Case number matches expected prefix: true
+Jun 20, 2025 12:52:07 PM stepdefinition.OrderIntake finallyVerifiesWhetherTheEnteredCaseNumberIsBeingReflectedInTheCaselistPage
+INFO: Actual case number: AUTO_125158
+Jun 20, 2025 12:52:07 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Status: Estimation in Process
+Jun 20, 2025 12:52:07 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Version: New Case
+Jun 20, 2025 12:52:07 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Priority: Standard
+Jun 20, 2025 12:52:07 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: One or more conditions do not match.
+Jun 20, 2025 12:52:09 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+Jun 20, 2025 12:52:20 PM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: New Case from LDTM001-C241
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: New Case from LDTM001-C241
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-06-20T07:25:02.000Z
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: info@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: info@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → no-reply@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → mail@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff2@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff19@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff20@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff492@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff493@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff494@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff503@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff506@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff622@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → managermailtest@gmail.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20164941@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee900@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4473@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4177@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee108@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee106@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8254@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5901@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee7215@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee683@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4787@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9016@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6695@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5134@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9450@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5464@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4461@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee551@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4397@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6590@lezdotechmed.com
+Jun 20, 2025 12:52:21 PM mailtrap.MailTrapAPI fetchAndLogEmailContent
+INFO: Extracted Content:
+New Case Received
+
+
+
+
+LDTM001-C241 has uploaded a new case. The particulars of the case are as follows: Case Name: David  Test_0620125158Order Date: 06-20-2025 Priority: Standard  Desired Services: Medical Chronology,Deposition Summary,Hyperlinks&nbsp;
+Jun 20, 2025 12:52:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 12:52:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 12:52:23 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 12:52:55 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleDOCFile_200kb.doc added for upload.
+Jun 20, 2025 12:52:56 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleGIFImage_40kbmb.gif added for upload.
+Jun 20, 2025 12:52:56 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePDFFile_5mb.pdf added for upload.
+Jun 20, 2025 12:52:57 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePNGImage_100kbmb.png added for upload.
+Jun 20, 2025 12:52:58 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePPTFile_500kb.ppt added for upload.
+Jun 20, 2025 12:52:58 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePSDFile_1.9mbmb.psd added for upload.
+Jun 20, 2025 12:52:59 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleTextFile_10kb.txt added for upload.
+Jun 20, 2025 12:53:02 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: FileUpload Completed 100%: 100
+Jun 20, 2025 12:53:14 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: Unable to find enough file upload confirmation elements.
+Jun 20, 2025 12:53:14 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File upload confirmation 7 is visible.
+Jun 20, 2025 12:53:30 PM stepdefinition.OrderIntake theClientSeesTheOrderPlacedSuccessMessageAndIsRedirectedToTheCaseListPage
+INFO: Order success status: true
+Jun 20, 2025 12:53:30 PM stepdefinition.OrderIntake finallyVerifiesWhetherTheCaseNumberIsGeneratedAutomaticallyInTheCaselistPage
+INFO: Case number matches expected prefix: true
+Jun 20, 2025 12:53:30 PM stepdefinition.OrderIntake finallyVerifiesWhetherTheCaseNumberIsGeneratedAutomaticallyInTheCaselistPage
+INFO: Actual case number: LDML-9897
+Jun 20, 2025 12:53:31 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Status: Open
+Jun 20, 2025 12:53:31 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Version: New Case
+Jun 20, 2025 12:53:31 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Priority: Standard
+Jun 20, 2025 12:53:31 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: All conditions are met. The case status, version, and priority are correct.
+Jun 20, 2025 12:53:31 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: New Case from LDTM001-C241
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: New Case from LDTM001-C241
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-06-20T07:25:02.000Z
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: info@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: info@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → no-reply@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → mail@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff2@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff19@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff20@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff492@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff493@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff494@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff503@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff506@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff622@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → managermailtest@gmail.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20164941@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee900@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4473@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4177@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee108@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee106@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8254@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5901@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee7215@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee683@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4787@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9016@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6695@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5134@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9450@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5464@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4461@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee551@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4397@lezdotechmed.com
+Jun 20, 2025 12:53:43 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6590@lezdotechmed.com
+Jun 20, 2025 12:53:44 PM mailtrap.MailTrapAPI fetchAndLogEmailContent
+INFO: Extracted Content:
+New Case Received
+
+
+
+
+LDTM001-C241 has uploaded a new case. The particulars of the case are as follows: Case Name: David  Test_0620125158Order Date: 06-20-2025 Priority: Standard  Desired Services: Medical Chronology,Deposition Summary,Hyperlinks&nbsp;
+Jun 20, 2025 12:53:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 12:53:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 12:53:45 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 12:54:26 PM stepdefinition.OrderIntake theClientVerifiesThatAnErrorMessageIsDisplayedIndicatingFilesMustBeUploadedAndOverviewErrorIsShown
+INFO: Verified that the error message for missing file upload is displayed.
+Jun 20, 2025 12:54:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 12:54:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 12:54:28 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 12:55:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 12:55:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 12:55:10 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 12:55:52 PM stepdefinition.AdditionalCases theCaseWiseClientVerifiesWhetherTheSelectedServicesAreCorrect
+INFO: Third service found: Hyperlinks
+Jun 20, 2025 12:55:52 PM stepdefinition.AdditionalCases theCaseWiseClientVerifiesWhetherTheSelectedServicesAreCorrect
+INFO: Service found: Medical Chronology
+Jun 20, 2025 12:55:52 PM stepdefinition.AdditionalCases theCaseWiseClientVerifiesWhetherTheSelectedServicesAreCorrect
+INFO: Test Passed: At least one expected service is present.
+Jun 20, 2025 12:56:11 PM stepdefinition.AdditionalCases theClientSeesTheAdditionalCaseSuccessMessageAndIsRedirectedToTheCaseListPage
+INFO: Order success status: true
+Jun 20, 2025 12:56:12 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Status: Open
+Jun 20, 2025 12:56:12 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Version: Additional - 1
+Jun 20, 2025 12:56:12 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Priority: Expedited
+Jun 20, 2025 12:56:12 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: All conditions are met. The case status, version, and priority are correct.
+Jun 20, 2025 12:56:12 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: Additional Case from LDTM001-C241
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: Additional Case from LDTM001-C241
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-06-20T07:28:56.000Z
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: info@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: info@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → no-reply@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → mail@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff2@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff19@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff20@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff492@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff493@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff494@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff503@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff506@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff622@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → managermailtest@gmail.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20164941@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee900@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4473@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4177@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee108@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee106@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8254@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5901@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee7215@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee683@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4787@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9016@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6695@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5134@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9450@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5464@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4461@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee551@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4397@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6590@lezdotechmed.com
+Jun 20, 2025 12:56:24 PM mailtrap.MailTrapAPI fetchAndLogEmailContent
+INFO: Extracted Content:
+LDTM001-C241 has uploaded a additional case. The particulars of the case are as follows: Case Name: David  Test_0620125319/Additional/1Order Date: 06-20-2025 Priority: Expedited  Desired Services: Medical Chronology,Deposition Summary,Hyperlinks
+Jun 20, 2025 12:56:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 12:56:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 12:56:26 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 12:57:00 PM stepdefinition.AdditionalCases theCaseWiseClientVerifiesWhetherTheSelectedServicesAreCorrect
+INFO: Third service found: Hyperlinks
+Jun 20, 2025 12:57:00 PM stepdefinition.AdditionalCases theCaseWiseClientVerifiesWhetherTheSelectedServicesAreCorrect
+INFO: Service found: Medical Chronology
+Jun 20, 2025 12:57:00 PM stepdefinition.AdditionalCases theCaseWiseClientVerifiesWhetherTheSelectedServicesAreCorrect
+INFO: Test Passed: At least one expected service is present.
+Jun 20, 2025 12:57:01 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleDOCFile_200kb.doc added for upload.
+Jun 20, 2025 12:57:01 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleGIFImage_40kbmb.gif added for upload.
+Jun 20, 2025 12:57:02 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePDFFile_5mb.pdf added for upload.
+Jun 20, 2025 12:57:02 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePNGImage_100kbmb.png added for upload.
+Jun 20, 2025 12:57:02 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePPTFile_500kb.ppt added for upload.
+Jun 20, 2025 12:57:02 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePSDFile_1.9mbmb.psd added for upload.
+Jun 20, 2025 12:57:03 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleTextFile_10kb.txt added for upload.
+Jun 20, 2025 12:57:06 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: FileUpload Completed 100%: 100
+Jun 20, 2025 12:57:18 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: Unable to find enough file upload confirmation elements.
+Jun 20, 2025 12:57:18 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File upload confirmation 7 is visible.
+Jun 20, 2025 12:57:36 PM stepdefinition.AdditionalCases theClientSeesTheAdditionalCaseSuccessMessageAndIsRedirectedToTheCaseListPage
+INFO: Order success status: true
+Jun 20, 2025 12:57:36 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Status: Open
+Jun 20, 2025 12:57:36 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Version: Additional - 2
+Jun 20, 2025 12:57:36 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Priority: Expedited
+Jun 20, 2025 12:57:36 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: All conditions are met. The case status, version, and priority are correct.
+Jun 20, 2025 12:57:37 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: Additional Case from LDTM001-C241
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: Additional Case from LDTM001-C241
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-06-20T07:30:22.000Z
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: info@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: info@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → no-reply@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → mail@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff2@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff19@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff20@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff492@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff493@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff494@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff503@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff506@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff622@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → managermailtest@gmail.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20164941@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee900@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4473@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4177@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee108@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee106@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8254@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5901@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee7215@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee683@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4787@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9016@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6695@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5134@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9450@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5464@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4461@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee551@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4397@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6590@lezdotechmed.com
+Jun 20, 2025 12:57:49 PM mailtrap.MailTrapAPI fetchAndLogEmailContent
+INFO: Extracted Content:
+LDTM001-C241 has uploaded a additional case. The particulars of the case are as follows: Case Name: David  Test_0620125319/Additional/2Order Date: 06-20-2025 Priority: Expedited  Desired Services: Medical Chronology,Deposition Summary,Hyperlinks
+Jun 20, 2025 12:57:50 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+Jun 20, 2025 1:05:18 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-20.log
+Jun 20, 2025 1:05:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 1:05:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 1:05:22 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 1:07:46 PM stepdefinition.OrderIntake theClientSeesTheOrderPlacedSuccessMessageAndIsRedirectedToTheCaseListPage
+INFO: Order success status: true
+Jun 20, 2025 1:07:46 PM stepdefinition.OrderIntake finallyVerifiesWhetherTheEnteredCaseNumberIsBeingReflectedInTheCaselistPage
+INFO: Case number matches expected prefix: true
+Jun 20, 2025 1:07:46 PM stepdefinition.OrderIntake finallyVerifiesWhetherTheEnteredCaseNumberIsBeingReflectedInTheCaselistPage
+INFO: Actual case number: AUTO_130739
+Jun 20, 2025 1:07:47 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Status: Estimation in Process
+Jun 20, 2025 1:07:47 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Version: New Case
+Jun 20, 2025 1:07:47 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Priority: Standard
+Jun 20, 2025 1:07:47 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: One or more conditions do not match.
+Jun 20, 2025 1:07:47 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+Jun 20, 2025 1:07:59 PM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: New Case from LDTM001-C241
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: New Case from LDTM001-C241
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-06-20T07:40:42.000Z
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: info@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: info@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → no-reply@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → mail@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff2@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff19@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff20@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff492@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff493@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff494@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff503@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff506@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff622@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → managermailtest@gmail.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20164941@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee900@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4473@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4177@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee108@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee106@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8254@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5901@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee7215@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee683@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4787@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9016@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6695@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5134@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9450@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5464@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4461@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee551@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4397@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6590@lezdotechmed.com
+Jun 20, 2025 1:08:00 PM mailtrap.MailTrapAPI fetchAndLogEmailContent
+INFO: Extracted Content:
+New Case Received
+
+
+
+
+LDTM001-C241 has uploaded a new case. The particulars of the case are as follows: Case Name: Michael  Test_0620130738Order Date: 06-20-2025 Priority: Standard  Desired Services: Medical Chronology,Deposition Summary,Hyperlinks&nbsp;
+Jun 20, 2025 1:08:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 1:08:03 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 1:08:03 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 1:08:35 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleDOCFile_200kb.doc added for upload.
+Jun 20, 2025 1:08:35 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleGIFImage_40kbmb.gif added for upload.
+Jun 20, 2025 1:08:35 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePDFFile_5mb.pdf added for upload.
+Jun 20, 2025 1:08:35 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePNGImage_100kbmb.png added for upload.
+Jun 20, 2025 1:08:35 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePPTFile_500kb.ppt added for upload.
+Jun 20, 2025 1:08:36 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePSDFile_1.9mbmb.psd added for upload.
+Jun 20, 2025 1:08:36 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleTextFile_10kb.txt added for upload.
+Jun 20, 2025 1:08:38 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: FileUpload Completed 100%: 100
+Jun 20, 2025 1:08:50 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: Unable to find enough file upload confirmation elements.
+Jun 20, 2025 1:08:51 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File upload confirmation 7 is visible.
+Jun 20, 2025 1:09:01 PM stepdefinition.OrderIntake theClientSeesTheOrderPlacedSuccessMessageAndIsRedirectedToTheCaseListPage
+INFO: Order success status: true
+Jun 20, 2025 1:09:02 PM stepdefinition.OrderIntake finallyVerifiesWhetherTheCaseNumberIsGeneratedAutomaticallyInTheCaselistPage
+INFO: Case number matches expected prefix: true
+Jun 20, 2025 1:09:02 PM stepdefinition.OrderIntake finallyVerifiesWhetherTheCaseNumberIsGeneratedAutomaticallyInTheCaselistPage
+INFO: Actual case number: LDML-9901
+Jun 20, 2025 1:09:02 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Status: Open
+Jun 20, 2025 1:09:02 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Version: New Case
+Jun 20, 2025 1:09:02 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Priority: Standard
+Jun 20, 2025 1:09:02 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: All conditions are met. The case status, version, and priority are correct.
+Jun 20, 2025 1:09:02 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: New Case from LDTM001-C241
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: New Case from LDTM001-C241
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-06-20T07:40:42.000Z
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: info@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: info@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → no-reply@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → mail@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff2@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff19@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff20@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff492@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff493@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff494@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff503@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff506@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff622@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → managermailtest@gmail.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20164941@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee900@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4473@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4177@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee108@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee106@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8254@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5901@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee7215@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee683@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4787@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9016@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6695@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5134@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9450@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5464@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4461@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee551@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4397@lezdotechmed.com
+Jun 20, 2025 1:09:14 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6590@lezdotechmed.com
+Jun 20, 2025 1:09:15 PM mailtrap.MailTrapAPI fetchAndLogEmailContent
+INFO: Extracted Content:
+New Case Received
+
+
+
+
+LDTM001-C241 has uploaded a new case. The particulars of the case are as follows: Case Name: Michael  Test_0620130738Order Date: 06-20-2025 Priority: Standard  Desired Services: Medical Chronology,Deposition Summary,Hyperlinks&nbsp;
+Jun 20, 2025 1:09:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 1:09:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 1:09:16 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 1:09:57 PM stepdefinition.OrderIntake theClientVerifiesThatAnErrorMessageIsDisplayedIndicatingFilesMustBeUploadedAndOverviewErrorIsShown
+INFO: Verified that the error message for missing file upload is displayed.
+Jun 20, 2025 1:09:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 1:09:59 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 1:09:59 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 1:10:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 1:10:32 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 1:10:32 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 1:10:53 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-20.log
+Jun 20, 2025 1:10:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 1:10:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 1:10:55 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 1:11:37 PM stepdefinition.OrderIntake theClientSeesTheOrderPlacedSuccessMessageAndIsRedirectedToTheCaseListPage
+INFO: Order success status: true
+Jun 20, 2025 1:11:38 PM stepdefinition.OrderIntake finallyVerifiesWhetherTheEnteredCaseNumberIsBeingReflectedInTheCaselistPage
+INFO: Case number matches expected prefix: true
+Jun 20, 2025 1:11:38 PM stepdefinition.OrderIntake finallyVerifiesWhetherTheEnteredCaseNumberIsBeingReflectedInTheCaselistPage
+INFO: Actual case number: AUTO_131130
+Jun 20, 2025 1:11:38 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Status: Estimation in Process
+Jun 20, 2025 1:11:38 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Version: New Case
+Jun 20, 2025 1:11:38 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Priority: Standard
+Jun 20, 2025 1:11:38 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: One or more conditions do not match.
+Jun 20, 2025 1:11:39 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+Jun 20, 2025 1:11:50 PM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: New Case from LDTM001-C241
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: New Case from LDTM001-C241
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-06-20T07:44:31.000Z
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: info@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: info@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → no-reply@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → mail@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff2@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff19@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff20@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff492@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff493@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff494@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff503@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff506@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff622@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → managermailtest@gmail.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20164941@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee900@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4473@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4177@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee108@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee106@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8254@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5901@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee7215@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee683@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4787@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9016@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6695@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5134@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9450@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5464@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4461@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee551@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4397@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6590@lezdotechmed.com
+Jun 20, 2025 1:11:51 PM mailtrap.MailTrapAPI fetchAndLogEmailContent
+INFO: Extracted Content:
+New Case Received
+
+
+
+
+LDTM001-C241 has uploaded a new case. The particulars of the case are as follows: Case Name: Chris  Test_0620131130Order Date: 06-20-2025 Priority: Standard  Desired Services: Medical Chronology,Deposition Summary,Hyperlinks&nbsp;
+Jun 20, 2025 1:11:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 1:11:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 1:11:52 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 1:12:34 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleDOCFile_200kb.doc added for upload.
+Jun 20, 2025 1:12:34 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleGIFImage_40kbmb.gif added for upload.
+Jun 20, 2025 1:12:34 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePDFFile_5mb.pdf added for upload.
+Jun 20, 2025 1:12:34 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePNGImage_100kbmb.png added for upload.
+Jun 20, 2025 1:12:35 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePPTFile_500kb.ppt added for upload.
+Jun 20, 2025 1:12:35 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePSDFile_1.9mbmb.psd added for upload.
+Jun 20, 2025 1:12:35 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleTextFile_10kb.txt added for upload.
+Jun 20, 2025 1:59:45 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-20.log
+Jun 20, 2025 1:59:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 1:59:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 1:59:47 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 2:00:33 PM baseclass.LibGlobal clickWithRetry
+INFO: Exception encountered. Retrying... Attempts left: 2
+Jun 20, 2025 2:00:44 PM stepdefinition.OrderIntake theClientSeesTheOrderPlacedSuccessMessageAndIsRedirectedToTheCaseListPage
+INFO: Order success status: true
+Jun 20, 2025 2:00:45 PM stepdefinition.OrderIntake finallyVerifiesWhetherTheEnteredCaseNumberIsBeingReflectedInTheCaselistPage
+INFO: Case number matches expected prefix: true
+Jun 20, 2025 2:00:45 PM stepdefinition.OrderIntake finallyVerifiesWhetherTheEnteredCaseNumberIsBeingReflectedInTheCaselistPage
+INFO: Actual case number: AUTO_140037
+Jun 20, 2025 2:00:45 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Status: Estimation in Process
+Jun 20, 2025 2:00:45 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Version: New Case
+Jun 20, 2025 2:00:45 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Priority: Standard
+Jun 20, 2025 2:00:45 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: One or more conditions do not match.
+Jun 20, 2025 2:00:46 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+Jun 20, 2025 2:00:58 PM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: New Case from LDTM001-C241
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: New Case from LDTM001-C241
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-06-20T08:33:38.000Z
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: info@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: info@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → no-reply@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → mail@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff2@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff19@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff20@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff492@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff493@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff494@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff503@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff506@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff622@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → managermailtest@gmail.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20164941@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee900@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4473@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4177@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee108@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee106@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8254@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5901@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee7215@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee683@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4787@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9016@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6695@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5134@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9450@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5464@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4461@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee551@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4397@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6590@lezdotechmed.com
+Jun 20, 2025 2:00:59 PM mailtrap.MailTrapAPI fetchAndLogEmailContent
+INFO: Extracted Content:
+New Case Received
+
+
+
+
+LDTM001-C241 has uploaded a new case. The particulars of the case are as follows: Case Name: Chris  Test_0620140037Order Date: 06-20-2025 Priority: Standard  Desired Services: Medical Chronology,Deposition Summary,Hyperlinks&nbsp;
+Jun 20, 2025 2:01:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 2:01:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 2:01:00 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 2:01:30 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleDOCFile_200kb.doc added for upload.
+Jun 20, 2025 2:01:30 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleGIFImage_40kbmb.gif added for upload.
+Jun 20, 2025 2:01:31 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePDFFile_5mb.pdf added for upload.
+Jun 20, 2025 2:01:31 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePNGImage_100kbmb.png added for upload.
+Jun 20, 2025 2:01:31 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePPTFile_500kb.ppt added for upload.
+Jun 20, 2025 2:01:31 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePSDFile_1.9mbmb.psd added for upload.
+Jun 20, 2025 2:01:31 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleTextFile_10kb.txt added for upload.
+Jun 20, 2025 2:01:35 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: FileUpload Completed 100%: 100
+Jun 20, 2025 2:01:47 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: Unable to find enough file upload confirmation elements.
+Jun 20, 2025 2:01:48 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File upload confirmation 7 is visible.
+Jun 20, 2025 2:01:55 PM stepdefinition.OrderIntake theClientSeesTheOrderPlacedSuccessMessageAndIsRedirectedToTheCaseListPage
+INFO: Order success status: true
+Jun 20, 2025 2:01:56 PM stepdefinition.OrderIntake finallyVerifiesWhetherTheCaseNumberIsGeneratedAutomaticallyInTheCaselistPage
+INFO: Case number matches expected prefix: true
+Jun 20, 2025 2:01:56 PM stepdefinition.OrderIntake finallyVerifiesWhetherTheCaseNumberIsGeneratedAutomaticallyInTheCaselistPage
+INFO: Actual case number: LDML-9904
+Jun 20, 2025 2:01:56 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Status: Open
+Jun 20, 2025 2:01:56 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Version: New Case
+Jun 20, 2025 2:01:56 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Priority: Standard
+Jun 20, 2025 2:01:56 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: All conditions are met. The case status, version, and priority are correct.
+Jun 20, 2025 2:01:57 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+Jun 20, 2025 2:02:09 PM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: New Case from LDTM001-C241
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: New Case from LDTM001-C241
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-06-20T08:33:38.000Z
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: info@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: info@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → no-reply@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → mail@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff2@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff19@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff20@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff492@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff493@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff494@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff503@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff506@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff622@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → managermailtest@gmail.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20164941@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee900@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4473@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4177@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee108@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee106@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8254@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5901@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee7215@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee683@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4787@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9016@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6695@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5134@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9450@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5464@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4461@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee551@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4397@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6590@lezdotechmed.com
+Jun 20, 2025 2:02:10 PM mailtrap.MailTrapAPI fetchAndLogEmailContent
+INFO: Extracted Content:
+New Case Received
+
+
+
+
+LDTM001-C241 has uploaded a new case. The particulars of the case are as follows: Case Name: Chris  Test_0620140037Order Date: 06-20-2025 Priority: Standard  Desired Services: Medical Chronology,Deposition Summary,Hyperlinks&nbsp;
+Jun 20, 2025 2:02:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 2:02:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 2:02:11 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 2:02:39 PM stepdefinition.OrderIntake theClientVerifiesThatAnErrorMessageIsDisplayedIndicatingFilesMustBeUploadedAndOverviewErrorIsShown
+INFO: Verified that the error message for missing file upload is displayed.
+Jun 20, 2025 2:02:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 2:02:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 2:02:41 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 2:03:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 2:03:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 2:03:09 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 2:03:37 PM stepdefinition.AdditionalCases theCaseWiseClientVerifiesWhetherTheSelectedServicesAreCorrect
+INFO: Third service found: Hyperlinks
+Jun 20, 2025 2:03:37 PM stepdefinition.AdditionalCases theCaseWiseClientVerifiesWhetherTheSelectedServicesAreCorrect
+INFO: Service found: Medical Chronology
+Jun 20, 2025 2:03:37 PM stepdefinition.AdditionalCases theCaseWiseClientVerifiesWhetherTheSelectedServicesAreCorrect
+INFO: Test Passed: At least one expected service is present.
+Jun 20, 2025 2:03:43 PM stepdefinition.AdditionalCases theClientSeesTheAdditionalCaseSuccessMessageAndIsRedirectedToTheCaseListPage
+INFO: Order success status: true
+Jun 20, 2025 2:03:44 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Status: Open
+Jun 20, 2025 2:03:44 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Version: Additional - 1
+Jun 20, 2025 2:03:44 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Priority: Expedited
+Jun 20, 2025 2:03:44 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: All conditions are met. The case status, version, and priority are correct.
+Jun 20, 2025 2:03:45 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: Additional Case from LDTM001-C241
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: Additional Case from LDTM001-C241
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-06-20T08:36:34.000Z
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: info@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: info@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → no-reply@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → mail@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff2@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff19@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff20@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff492@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff493@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff494@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff503@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff506@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff622@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → managermailtest@gmail.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20164941@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee900@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4473@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4177@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee108@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee106@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8254@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5901@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee7215@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee683@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4787@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9016@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6695@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5134@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9450@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5464@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4461@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee551@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4397@lezdotechmed.com
+Jun 20, 2025 2:03:55 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6590@lezdotechmed.com
+Jun 20, 2025 2:03:56 PM mailtrap.MailTrapAPI fetchAndLogEmailContent
+INFO: Extracted Content:
+LDTM001-C241 has uploaded a additional case. The particulars of the case are as follows: Case Name: Chris  Test_0620140149/Additional/1Order Date: 06-20-2025 Priority: Expedited  Desired Services: Medical Chronology,Deposition Summary,Hyperlinks
+Jun 20, 2025 2:03:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 2:03:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 2:03:57 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 2:05:51 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-20.log
+Jun 20, 2025 2:05:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 2:05:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 2:05:53 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 2:06:25 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+Jun 20, 2025 2:07:48 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-20.log
+Jun 20, 2025 2:07:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 2:07:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 2:07:49 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 2:08:16 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+Jun 20, 2025 2:08:27 PM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: Request: Sign and Upload the Authorization Form
+Jun 20, 2025 2:08:28 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: Request: Sign and Upload the Authorization Form
+Jun 20, 2025 2:08:28 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-06-20T08:41:06.000Z
+Jun 20, 2025 2:08:28 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: no-reply@lezdotechmed.com
+Jun 20, 2025 2:08:28 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: no-reply@lezdotechmed.com
+Jun 20, 2025 2:08:28 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+Jun 20, 2025 2:08:28 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → benlythepatient@lezdo.com
+Jun 20, 2025 2:08:28 PM mailtrap.MailTrapAPI fetchAndLogEmailContent
+WARNING: Email content <div class="content-text"> not found.
+Jun 20, 2025 2:08:29 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+Jun 20, 2025 2:19:46 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-20.log
+Jun 20, 2025 2:19:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 2:19:48 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 2:19:48 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 2:20:43 PM baseclass.LibGlobal clickWithRetry
+INFO: Exception encountered. Retrying... Attempts left: 2
+Jun 20, 2025 2:21:03 PM baseclass.LibGlobal clickWithRetry
+INFO: Exception encountered. Retrying... Attempts left: 1
+Jun 20, 2025 2:21:23 PM baseclass.LibGlobal clickWithRetry
+INFO: Exception encountered. Retrying... Attempts left: 0
+Jun 20, 2025 2:21:23 PM baseclass.LibGlobal clickWithRetry
+INFO: Failed to click after retries.
+Jun 20, 2025 2:21:43 PM baseclass.LibGlobal clickWithRetry
+INFO: Exception encountered. Retrying... Attempts left: 2
+Jun 20, 2025 2:21:59 PM baseclass.LibGlobal verifySuccessMessage
+INFO: Success message found: false | Actual text: Mail sent successfully.
+Jun 20, 2025 2:21:59 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+Jun 20, 2025 2:22:11 PM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: Request: Sign and Upload the Authorization Form
+Jun 20, 2025 2:22:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: Request: Sign and Upload the Authorization Form
+Jun 20, 2025 2:22:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-06-20T08:54:42.000Z
+Jun 20, 2025 2:22:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: no-reply@lezdotechmed.com
+Jun 20, 2025 2:22:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: no-reply@lezdotechmed.com
+Jun 20, 2025 2:22:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+Jun 20, 2025 2:22:11 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → benlythepatient@lezdo.com
+Jun 20, 2025 2:22:12 PM mailtrap.MailTrapAPI fetchAndLogEmailContent
+WARNING: Email content <div class="content-text"> not found.
+Jun 20, 2025 2:22:12 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+Jun 20, 2025 2:24:40 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-20.log
+Jun 20, 2025 2:24:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 2:24:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 2:24:42 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 2:25:13 PM baseclass.LibGlobal verifySuccessMessage
+INFO: Success message found: true | Actual text: Your order has been placed successfully.
+Jun 20, 2025 2:25:14 PM stepdefinition.OrderIntake finallyVerifiesWhetherTheEnteredCaseNumberIsBeingReflectedInTheCaselistPage
+INFO: Case number matches expected prefix: true
+Jun 20, 2025 2:25:14 PM stepdefinition.OrderIntake finallyVerifiesWhetherTheEnteredCaseNumberIsBeingReflectedInTheCaselistPage
+INFO: Actual case number: AUTO_142507
+Jun 20, 2025 2:25:14 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Status: Estimation in Process
+Jun 20, 2025 2:25:14 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Version: New Case
+Jun 20, 2025 2:25:14 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Priority: Standard
+Jun 20, 2025 2:25:14 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: One or more conditions do not match.
+Jun 20, 2025 2:25:15 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: New Case from LDTM001-C241
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: New Case from LDTM001-C241
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-06-20T08:58:10.000Z
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: info@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: info@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → no-reply@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → mail@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff2@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff19@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff20@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff492@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff493@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff494@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff503@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff506@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff622@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → managermailtest@gmail.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20164941@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee900@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4473@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4177@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee108@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee106@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8254@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5901@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee7215@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee683@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4787@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9016@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6695@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5134@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9450@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5464@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4461@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee551@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4397@lezdotechmed.com
+Jun 20, 2025 2:25:27 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6590@lezdotechmed.com
+Jun 20, 2025 2:25:28 PM mailtrap.MailTrapAPI fetchAndLogEmailContent
+INFO: Extracted Content:
+New Case Received
+
+
+
+
+LDTM001-C241 has uploaded a new case. The particulars of the case are as follows: Case Name: Michael  Test_0620142507Order Date: 06-20-2025 Priority: Standard  Desired Services: Medical Chronology,Deposition Summary,Hyperlinks&nbsp;
+Jun 20, 2025 2:25:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 2:25:29 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 2:25:29 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 2:25:51 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleDOCFile_200kb.doc added for upload.
+Jun 20, 2025 2:25:51 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleGIFImage_40kbmb.gif added for upload.
+Jun 20, 2025 2:25:51 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePDFFile_5mb.pdf added for upload.
+Jun 20, 2025 2:25:51 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePNGImage_100kbmb.png added for upload.
+Jun 20, 2025 2:25:51 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePPTFile_500kb.ppt added for upload.
+Jun 20, 2025 2:25:51 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePSDFile_1.9mbmb.psd added for upload.
+Jun 20, 2025 2:25:52 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleTextFile_10kb.txt added for upload.
+Jun 20, 2025 2:25:56 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: FileUpload Completed 100%: 100
+Jun 20, 2025 2:26:08 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: Unable to find enough file upload confirmation elements.
+Jun 20, 2025 2:26:08 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File upload confirmation 7 is visible.
+Jun 20, 2025 2:26:17 PM baseclass.LibGlobal verifySuccessMessage
+INFO: Success message found: true | Actual text: Your order has been placed successfully.
+Jun 20, 2025 2:26:19 PM stepdefinition.OrderIntake finallyVerifiesWhetherTheCaseNumberIsGeneratedAutomaticallyInTheCaselistPage
+INFO: Case number matches expected prefix: true
+Jun 20, 2025 2:26:19 PM stepdefinition.OrderIntake finallyVerifiesWhetherTheCaseNumberIsGeneratedAutomaticallyInTheCaselistPage
+INFO: Actual case number: LDML-9907
+Jun 20, 2025 2:26:19 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Status: Open
+Jun 20, 2025 2:26:19 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Version: New Case
+Jun 20, 2025 2:26:19 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Priority: Standard
+Jun 20, 2025 2:26:19 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: All conditions are met. The case status, version, and priority are correct.
+Jun 20, 2025 2:26:19 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: New Case from LDTM001-C241
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: New Case from LDTM001-C241
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-06-20T08:58:10.000Z
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: info@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: info@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → no-reply@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → mail@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff2@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff19@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff20@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff492@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff493@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff494@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff503@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff506@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff622@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → managermailtest@gmail.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20164941@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee900@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4473@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4177@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee108@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee106@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8254@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5901@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee7215@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee683@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4787@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9016@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6695@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5134@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9450@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5464@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4461@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee551@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4397@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6590@lezdotechmed.com
+Jun 20, 2025 2:26:31 PM mailtrap.MailTrapAPI fetchAndLogEmailContent
+INFO: Extracted Content:
+New Case Received
+
+
+
+
+LDTM001-C241 has uploaded a new case. The particulars of the case are as follows: Case Name: Michael  Test_0620142507Order Date: 06-20-2025 Priority: Standard  Desired Services: Medical Chronology,Deposition Summary,Hyperlinks&nbsp;
+Jun 20, 2025 2:26:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 2:26:32 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 2:26:32 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 2:27:27 PM baseclass.LibGlobal clickWithRetry
+INFO: Exception encountered. Retrying... Attempts left: 2
+Jun 20, 2025 2:27:47 PM baseclass.LibGlobal clickWithRetry
+INFO: Exception encountered. Retrying... Attempts left: 1
+Jun 20, 2025 2:28:07 PM baseclass.LibGlobal clickWithRetry
+INFO: Exception encountered. Retrying... Attempts left: 0
+Jun 20, 2025 2:28:07 PM baseclass.LibGlobal clickWithRetry
+INFO: Failed to click after retries.
+Jun 20, 2025 2:28:14 PM baseclass.LibGlobal clickWithRetry
+INFO: Exception encountered. Retrying... Attempts left: 2
+Jun 20, 2025 2:28:35 PM baseclass.LibGlobal clickWithRetry
+INFO: Exception encountered. Retrying... Attempts left: 1
+Jun 20, 2025 2:28:55 PM baseclass.LibGlobal clickWithRetry
+INFO: Exception encountered. Retrying... Attempts left: 0
+Jun 20, 2025 2:28:55 PM baseclass.LibGlobal clickWithRetry
+INFO: Failed to click after retries.
+Jun 20, 2025 2:28:56 PM stepdefinition.OrderIntake theClientVerifiesThatAnErrorMessageIsDisplayedIndicatingFilesMustBeUploadedAndOverviewErrorIsShown
+INFO: Verified that the error message for missing file upload is displayed.
+Jun 20, 2025 2:28:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 2:28:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 2:28:57 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 2:29:53 PM baseclass.LibGlobal clickWithRetry
+INFO: Exception encountered. Retrying... Attempts left: 2
+Jun 20, 2025 2:30:13 PM baseclass.LibGlobal clickWithRetry
+INFO: Exception encountered. Retrying... Attempts left: 1
+Jun 20, 2025 2:30:33 PM baseclass.LibGlobal clickWithRetry
+INFO: Exception encountered. Retrying... Attempts left: 0
+Jun 20, 2025 2:30:33 PM baseclass.LibGlobal clickWithRetry
+INFO: Failed to click after retries.
+Jun 20, 2025 2:30:53 PM baseclass.LibGlobal clickWithRetry
+INFO: Exception encountered. Retrying... Attempts left: 2
+Jun 20, 2025 2:31:09 PM baseclass.LibGlobal verifySuccessMessage
+INFO: Success message found: true | Actual text: Mail sent successfully.
+Jun 20, 2025 2:31:09 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+Jun 20, 2025 2:31:20 PM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: Request: Sign and Upload the Authorization Form
+Jun 20, 2025 2:31:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: Request: Sign and Upload the Authorization Form
+Jun 20, 2025 2:31:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-06-20T09:03:52.000Z
+Jun 20, 2025 2:31:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: no-reply@lezdotechmed.com
+Jun 20, 2025 2:31:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: no-reply@lezdotechmed.com
+Jun 20, 2025 2:31:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+Jun 20, 2025 2:31:21 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → benlythepatient@lezdo.com
+Jun 20, 2025 2:31:21 PM mailtrap.MailTrapAPI fetchAndLogEmailContent
+WARNING: Email content <div class="content-text"> not found.
+Jun 20, 2025 2:31:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 2:31:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 2:31:23 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 2:31:46 PM stepdefinition.AdditionalCases theCaseWiseClientVerifiesWhetherTheSelectedServicesAreCorrect
+INFO: Third service found: Hyperlinks
+Jun 20, 2025 2:31:46 PM stepdefinition.AdditionalCases theCaseWiseClientVerifiesWhetherTheSelectedServicesAreCorrect
+INFO: Service found: Medical Chronology
+Jun 20, 2025 2:31:46 PM stepdefinition.AdditionalCases theCaseWiseClientVerifiesWhetherTheSelectedServicesAreCorrect
+INFO: Test Passed: At least one expected service is present.
+Jun 20, 2025 2:31:52 PM baseclass.LibGlobal verifySuccessMessage
+INFO: Success message found: true | Actual text: Additional Case added successfully.
+Jun 20, 2025 2:31:52 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Status: Open
+Jun 20, 2025 2:31:52 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Version: Additional - 1
+Jun 20, 2025 2:31:52 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Priority: Expedited
+Jun 20, 2025 2:31:52 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: All conditions are met. The case status, version, and priority are correct.
+Jun 20, 2025 2:31:52 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: Additional Case from LDTM001-C241
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: Additional Case from LDTM001-C241
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-06-20T09:04:46.000Z
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: info@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: info@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → no-reply@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → mail@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff2@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff19@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff20@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff492@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff493@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff494@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff503@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff506@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff622@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → managermailtest@gmail.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20164941@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee900@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4473@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4177@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee108@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee106@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8254@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5901@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee7215@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee683@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4787@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9016@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6695@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5134@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9450@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5464@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4461@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee551@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4397@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6590@lezdotechmed.com
+Jun 20, 2025 2:32:04 PM mailtrap.MailTrapAPI fetchAndLogEmailContent
+INFO: Extracted Content:
+LDTM001-C241 has uploaded a additional case. The particulars of the case are as follows: Case Name: Michael  Test_0620142610/Additional/1Order Date: 06-20-2025 Priority: Expedited  Desired Services: Medical Chronology,Deposition Summary,Hyperlinks
+Jun 20, 2025 2:32:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 2:32:06 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 20, 2025 2:32:06 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 20, 2025 2:32:29 PM stepdefinition.AdditionalCases theCaseWiseClientVerifiesWhetherTheSelectedServicesAreCorrect
+INFO: Third service found: Hyperlinks
+Jun 20, 2025 2:32:29 PM stepdefinition.AdditionalCases theCaseWiseClientVerifiesWhetherTheSelectedServicesAreCorrect
+INFO: Service found: Medical Chronology
+Jun 20, 2025 2:32:29 PM stepdefinition.AdditionalCases theCaseWiseClientVerifiesWhetherTheSelectedServicesAreCorrect
+INFO: Test Passed: At least one expected service is present.
+Jun 20, 2025 2:32:30 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleDOCFile_200kb.doc added for upload.
+Jun 20, 2025 2:32:30 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleGIFImage_40kbmb.gif added for upload.
+Jun 20, 2025 2:32:30 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePDFFile_5mb.pdf added for upload.
+Jun 20, 2025 2:32:30 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePNGImage_100kbmb.png added for upload.
+Jun 20, 2025 2:32:30 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePPTFile_500kb.ppt added for upload.
+Jun 20, 2025 2:32:30 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePSDFile_1.9mbmb.psd added for upload.
+Jun 20, 2025 2:32:30 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleTextFile_10kb.txt added for upload.
+Jun 20, 2025 2:32:32 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: FileUpload Completed 100%: 100
+Jun 20, 2025 2:32:44 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: Unable to find enough file upload confirmation elements.
+Jun 20, 2025 2:32:44 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File upload confirmation 7 is visible.
+Jun 20, 2025 2:32:55 PM baseclass.LibGlobal verifySuccessMessage
+INFO: Success message found: true | Actual text: Additional Case added successfully.
+Jun 20, 2025 2:32:55 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Status: Open
+Jun 20, 2025 2:32:55 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Version: Additional - 2
+Jun 20, 2025 2:32:55 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Priority: Expedited
+Jun 20, 2025 2:32:55 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: All conditions are met. The case status, version, and priority are correct.
+Jun 20, 2025 2:32:56 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: Additional Case from LDTM001-C241
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: Additional Case from LDTM001-C241
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-06-20T09:05:48.000Z
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: info@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: info@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → no-reply@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → mail@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff2@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff19@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff20@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff492@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff493@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff494@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff503@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff506@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff622@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → managermailtest@gmail.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20164941@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee900@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4473@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4177@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee108@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee106@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8254@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5901@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee7215@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee683@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4787@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9016@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6695@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5134@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9450@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5464@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4461@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee551@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4397@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6590@lezdotechmed.com
+Jun 20, 2025 2:33:07 PM mailtrap.MailTrapAPI fetchAndLogEmailContent
+INFO: Extracted Content:
+LDTM001-C241 has uploaded a additional case. The particulars of the case are as follows: Case Name: Michael  Test_0620142610/Additional/2Order Date: 06-20-2025 Priority: Expedited  Desired Services: Medical Chronology,Deposition Summary,Hyperlinks
+Jun 20, 2025 2:33:08 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.

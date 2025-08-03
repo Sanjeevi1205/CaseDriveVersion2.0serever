@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Cucumber</title>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20class%3D%22ml-3%20ml-md-0%22%20viewBox%3D%220%200%2040.59%2046.31%22%20width%3D%2240.59%22%20height%3D%2246.31%22%3E%0A%20%20%20%20%3Cg%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20fill%3D%22%2323d96c%22%20fill-rule%3D%22evenodd%22%20d%3D%22M30.283%203.645q-.528-.317-1.08-.593a16.164%2016.164%200%2000-1.154-.518c-.124-.052-.247-.1-.372-.149-.343-.127-.689-.268-1.042-.371a19.427%2019.427%200%2010-9.792%2037.51v5.56c11.676-1.753%2022.016-10.979%2022.787-23.093.459-7.289-3.193-14.73-9.347-18.346z%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20fill%3D%22%23173647%22%20d%3D%22M15.787%2046.307v-5.935A20.472%2020.472%200%201126.959%201.015c.274.08.557.187.832.291l.248.093c.165.064.291.113.417.167.348.137.739.313%201.208.543q.589.295%201.153.633c6.393%203.756%2010.354%2011.518%209.857%2019.316-.763%2012-10.722%2022.122-23.679%2024.067zm4.8-44.214h-.026a18.366%2018.366%200%2000-3.524%2036.408l.85.165v5.18c11.392-2.224%2020.009-11.272%2020.686-21.922.448-7.033-3.1-14.018-8.83-17.383l-.008-.005A14.691%2014.691%200%200027.654%203.5a5.74%205.74%200%2000-.344-.138l-.27-.1a9.49%209.49%200%2000-.708-.249%2018.425%2018.425%200%2000-5.743-.92z%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20fill%3D%22%23173647%22%20fill-rule%3D%22evenodd%22%20d%3D%22M16.666%2010.58a1.8%201.8%200%20011.583.608%204.184%204.184%200%2001.728%201.107c.645%201.422%201.027%203.461.23%204.605a6.334%206.334%200%2001-3.981-3.087%203.236%203.236%200%2001-.347-1.339%201.957%201.957%200%20011.787-1.894zm-5.683%208.025a7.742%207.742%200%20001.218.737%205.789%205.789%200%20004.883-.138%206.116%206.116%200%2000-3.345-3.45%203.664%203.664%200%2000-1.442-.321%201.884%201.884%200%2000-.319%200%201.766%201.766%200%2000-.995%203.172zm6.1%203.433c-.777-.518-2.379-.309-3.312-.292a4.416%204.416%200%2000-1.666.352%203.5%203.5%200%2000-1.218.738%201.817%201.817%200%20001.409%203.171%203.3%203.3%200%20001.442-.321c1.436-.62%203.141-2.32%203.346-3.648zm2.61%202a6.556%206.556%200%2000-3.724%203.506%203.091%203.091%200%2000-.321%201.314%201.907%201.907%200%20003.3%201.346%207.422%207.422%200%2000.7-1.218c.621-1.333.866-3.72.046-4.948zm2.557-7.167a5.941%205.941%200%20003.7-3.167%203.243%203.243%200%2000.319-1.346%201.915%201.915%200%2000-1.794-1.954%201.832%201.832%200%2000-1.6.641%207.382%207.382%200%2000-.705%201.218c-.62%201.434-.842%203.48.081%204.603zm4.208%2012.115a3.244%203.244%200%2000-.321-1.345%205.869%205.869%200%2000-3.554-3.269%205.386%205.386%200%2000-.226%204.711%204.147%204.147%200%2000.7%201.121c1.133%201.23%203.505.32%203.402-1.218zm4.2-6.28a7.466%207.466%200%2000-1.217-.7%204.425%204.425%200%2000-1.666-.352%206.4%206.4%200%2000-3.188.555%205.959%205.959%200%20003.316%203.386%203.672%203.672%200%20001.442.32%201.8%201.8%200%20001.31-3.209z%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E">
+	<style>
+.cucumber-react .cucumber-status--passed {
+  color: #2CB14A;
+}
+.cucumber-react .cucumber-status--skipped {
+  color: #00A0CC;
+}
+.cucumber-react .cucumber-status--pending {
+  color: #FFAD33;
+}
+.cucumber-react .cucumber-status--undefined {
+  color: #FFAD33;
+}
+.cucumber-react .cucumber-status--ambiguous {
+  color: #F4EBFD;
+}
+.cucumber-react .cucumber-status--failed {
+  color: #BB0000;
+}
+.cucumber-react .cucumber-status--unknown {
+  color: #B6BECB;
+}
+.cucumber-react h1, .cucumber-react h2, .cucumber-react h3 {
+  padding: 0;
+  margin: 0;
+}
+.cucumber-react a {
+  color: inherit;
+}
+.cucumber-react .gherkin-document-list {
+  font: 14px "Open Sans", sans-serif;
+  color: #161C24;
+  background: #fff;
+  overflow-x: hidden;
+}
+.cucumber-react .cucumber-title {
+  margin-top: 0.3em;
+  margin-bottom: 0;
+  display: inline-block;
+}
+.cucumber-react .cucumber-title__keyword {
+  font-weight: bold;
+}
+.cucumber-react .cucumber-title__text {
+  font-weight: normal;
+}
+.cucumber-react .cucumber-tags {
+  padding: 0;
+  margin-bottom: 0;
+}
+.cucumber-react .cucumber-tags .cucumber-tag {
+  display: inline;
+  list-style-type: none;
+  padding: 4px 8px 4px 8px;
+  margin-right: 6px;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+}
+.cucumber-react .cucumber-feature__icon {
+  padding-top: 0.35em;
+  padding-right: 0.5em;
+}
+.cucumber-react .cucumber-description,
+.cucumber-react .cucumber-children {
+  margin-left: 1em;
+}
+.cucumber-react .cucumber-feature,
+.cucumber-react .cucumber-rule,
+.cucumber-react .cucumber-scenario,
+.cucumber-react .cucumber-background {
+  margin-bottom: 1em;
+}
+.cucumber-react .cucumber-steps {
+  list-style-type: none;
+  padding-left: 10px;
+}
+.cucumber-react .cucumber-steps .cucumber-step {
+  display: flex;
+}
+.cucumber-react .cucumber-steps .cucumber-step__status {
+  padding-top: 0.2em;
+  padding-right: 0.5em;
+}
+.cucumber-react .cucumber-steps .cucumber-step__content {
+  flex-grow: 1;
+  max-width: calc(100% - 1.5em);
+}
+.cucumber-react .cucumber-steps .cucumber-step__keyword {
+  font-weight: bold;
+}
+.cucumber-react .cucumber-steps .cucumber-step__text {
+  font-weight: normal;
+}
+.cucumber-react .cucumber-steps .cucumber-step__param {
+  font-weight: normal;
+  font-style: italic;
+}
+.cucumber-react .cucumber-table {
+  border-collapse: collapse;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.cucumber-react .cucumber-table__header-cell {
+  border: 1px solid #4B5662;
+  padding: 0.3em;
+}
+.cucumber-react .cucumber-table__cell {
+  border: 1px solid #4B5662;
+  padding: 0.3em;
+}
+.cucumber-react .cucumber-table__cell__status {
+  padding: 0.5em 3px 3px 3px;
+}
+.cucumber-react .cucumber-table__cell__step {
+  flex-grow: 1;
+}
+.cucumber-react .cucumber-code {
+  padding: 0.25em;
+  background-color: #ebebeb;
+}
+.cucumber-react .cucumber-error {
+  padding: 0.5em;
+  margin: 0;
+  overflow-x: auto;
+}
+.cucumber-react .cucumber-no-documents {
+  font: 14px "Open Sans", sans-serif;
+}
+.cucumber-react .cucumber-attachment__icon {
+  margin-right: 0.5em;
+}
+.cucumber-react .cucumber-attachment__image {
+  max-width: 100%;
+  margin-top: 1em;
+}
+.cucumber-react .cucumber-attachment__text {
+  background-color: #ebebeb;
+  padding: 0.5em;
+  overflow-x: auto;
+}
+.cucumber-react .cucumber-anchor {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 0.3em;
+}
+.cucumber-react .cucumber-anchor__link {
+  opacity: 0;
+  transition: all 0.35s ease-in-out;
+  position: absolute;
+  left: -20px;
+  display: flex;
+  align-items: center;
+}
+.cucumber-react .cucumber-anchor__icon {
+  margin-right: 0.5em;
+}
+.cucumber-react .cucumber-anchor:hover a {
+  opacity: 1;
+  width: max-content;
+  transition: all 0.35s ease-in-out;
+}
+.cucumber-react .cucumber-anchor > * {
+  height: 100%;
+  margin-top: 0px;
+}
+
+.cucumber-report-header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font: 11px "Open Sans", sans-serif;
+  margin-bottom: 1em;
+}
+.cucumber-report-header > * {
+  padding: 1em;
+}
+.cucumber-report-header .cucumber-status-filter {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.cucumber-report-header .cucumber-status-filter table {
+  width: 100%;
+}
+.cucumber-report-header .cucumber-execution-data {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.cucumber-report-header .cucumber-search-bar {
+  border-right: 0;
+}
+.cucumber-report-header .cucumber-search-bar form.cucumber-search-bar-search {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 9fr 1fr;
+}
+.cucumber-report-header .cucumber-search-bar form.cucumber-search-bar-search input {
+  padding: 0.4em;
+  border-radius: 0;
+}
+.cucumber-report-header .cucumber-search-bar form.cucumber-search-bar-search button {
+  height: 2.2em;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+}
+.cucumber-report-header .cucumber-search-bar p.help {
+  font-size: 80%;
+}
+.cucumber-report-header .cucumber-search-bar form.cucumber-search-bar-filter ul {
+  display: inline;
+}
+.cucumber-report-header .cucumber-search-bar form.cucumber-search-bar-filter ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+.cucumber-report-header .cucumber-search-bar form.cucumber-search-bar-filter ul li input {
+  display: inline-block;
+  width: auto;
+  height: 0.6em;
+}
+.cucumber-report-header .cucumber-search-bar form.cucumber-search-bar-filter ul li label {
+  padding-right: 1em;
+}
+
+@media only screen and (min-width: 600px) {
+  .cucumber-report-header {
+    grid-template-columns: 1fr 1fr;
+  }
+  .cucumber-report-header .cucumber-status-filter {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .cucumber-report-header .cucumber-search-bar {
+    grid-column: 1/-1;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .cucumber-report-header {
+    grid-template-columns: 1fr 1fr 2fr;
+  }
+  .cucumber-report-header .cucumber-status-filter {
+    border-bottom: 0;
+  }
+  .cucumber-report-header .cucumber-execution-data {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 0;
+  }
+  .cucumber-report-header .cucumber-search-bar {
+    grid-column: auto;
+  }
+}
+.accordion {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+.accordion__item + .accordion__item {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.accordion__button {
+    background-color: #f4f4f4;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+}
+
+.accordion__button:hover {
+    background-color: #ddd;
+}
+
+.accordion__button:before {
+    display: inline-block;
+    content: '';
+    height: 10px;
+    width: 10px;
+    margin-right: 12px;
+    border-bottom: 2px solid currentColor;
+    border-right: 2px solid currentColor;
+    transform: rotate(-45deg);
+}
+
+.accordion__button[aria-expanded='true']::before,
+.accordion__button[aria-selected='true']::before {
+    transform: rotate(45deg);
+}
+
+.accordion__panel {
+    padding: 20px;
+    animation: fadein 0.35s ease-in;
+}
+
+	</style>
+</head>
+<body>
+<div id="content">
+</div>
+<script>
+window.CUCUMBER_MESSAGES = [{"meta":{"protocolVersion":"15.0.0","implementation":{"name":"cucumber-jvm","version":"6.10.4"},"runtime":{"name":"OpenJDK 64-Bit Server VM","version":"23.0.1+11-39"},"os":{"name":"Windows 10"},"cpu":{"name":"amd64"}}},{"testRunStarted":{"timestamp":{"seconds":"1738748290","nanos":119617800}}},{"source":{"uri":"file:///C:/Users/harikrishnan.s/casedrive_2.0_testing_automation/CaseDrive_Automation/src/test/resources/FeatureFiles/Login.feature","data":"Feature: Login functionality with valid credentials\r\n@PositiveScenario\r\nScenario: Verify that the client can log in with valid credentials.\r\n\tGiven the client navigate to the casedrive URL\r\n\tWhen the client enters the valid credentials\r\n\tThen the client should navigate to the homepage\r\n\t\r\n@NegativeScenario\r\nScenario: Verify that the client cannot log in with an invalid email credential.\r\n\tGiven the client navigate to the casedrive URL\r\n\tWhen the client enters the invalid email credential\r\n\tThen an error popup notifies the client of an invalid email.\r\n\t\r\n@NegativeScenario\r\nScenario: Verify that the client cannot log in with a valid email and an invalid password.\r\n\tGiven the client navigate to the casedrive URL\r\n\tWhen the client enters the valid email and an invalid password.\r\n\tThen an error popup notifies the client of an invalid password.\r\n\t\r\n@NegativeScenario\r\nScenario: Verify that the client cannot log in before being converted to a client.\r\n\tGiven the client navigate to the casedrive URL\r\n\tWhen the client enters the non-converted valid credentials\r\n\tThen an error popup notifies the client of an pending account verification.\r\n\t\r\n@NegativeScenario\r\nScenario: Verify that a non-existing user cannot log in.\r\n\tGiven the client navigate to the casedrive URL\r\n\tWhen the client enters the undefined user credential\r\n\tThen an error popup notifies the client of an invalid email.\r\n\t\r\n@NegativeScenario\r\nScenario: Verify that the client cannot log in when the account is inactive.\r\n\tGiven the client navigate to the casedrive URL\r\n\tWhen the client enters the Inactive email credential\r\n\tThen an error popup notifies the client of account inactive or removed.\r\n\r\n@NegativeScenario\r\nScenario: Verify that the internal user cannot log in when the account is inactive.\r\n\tGiven the internal user navigate to the casedrive URL\r\n\tWhen the internal user enters the Inactive email credential\r\n\tThen an error popup notifies the internal user of account inactive or removed.","mediaType":"text/x.cucumber.gherkin+plain"}},{"gherkinDocument":{"uri":"file:///C:/Users/harikrishnan.s/casedrive_2.0_testing_automation/CaseDrive_Automation/src/test/resources/FeatureFiles/Login.feature","feature":{"location":{"line":1,"column":1},"language":"en","keyword":"Feature","name":"Login functionality with valid credentials","children":[{"scenario":{"location":{"line":3,"column":1},"tags":[{"location":{"line":2,"column":1},"name":"@PositiveScenario","id":"5751dc7f-421f-42c7-b5f5-506d3e9e9540"}],"keyword":"Scenario","name":"Verify that the client can log in with valid credentials.","steps":[{"location":{"line":4,"column":2},"keyword":"Given ","text":"the client navigate to the casedrive URL","id":"75292efb-562b-4a38-a89c-8cc4a9a330cf"},{"location":{"line":5,"column":2},"keyword":"When ","text":"the client enters the valid credentials","id":"464b6713-aeae-48ad-bdcc-171187ec5cf7"},{"location":{"line":6,"column":2},"keyword":"Then ","text":"the client should navigate to the homepage","id":"4031fba6-4f8f-4531-ad41-6805a0e21418"}],"id":"629803c8-0735-470c-87f4-b6de05cbbf32"}},{"scenario":{"location":{"line":9,"column":1},"tags":[{"location":{"line":8,"column":1},"name":"@NegativeScenario","id":"2b418b83-a53a-49e1-bebc-bcf2ba4a5935"}],"keyword":"Scenario","name":"Verify that the client cannot log in with an invalid email credential.","steps":[{"location":{"line":10,"column":2},"keyword":"Given ","text":"the client navigate to the casedrive URL","id":"19a69e9a-ecfe-4984-a156-3f2a7ee47361"},{"location":{"line":11,"column":2},"keyword":"When ","text":"the client enters the invalid email credential","id":"f0ab2944-bd53-43f5-aa43-0f99fd812b35"},{"location":{"line":12,"column":2},"keyword":"Then ","text":"an error popup notifies the client of an invalid email.","id":"e4f6f8e1-5dec-4099-b443-8db679e311f9"}],"id":"046c2b5c-d6e5-49cc-90f6-71343fd68668"}},{"scenario":{"location":{"line":15,"column":1},"tags":[{"location":{"line":14,"column":1},"name":"@NegativeScenario","id":"23ba61fb-42f5-4ff8-86d6-51c7a2aa913b"}],"keyword":"Scenario","name":"Verify that the client cannot log in with a valid email and an invalid password.","steps":[{"location":{"line":16,"column":2},"keyword":"Given ","text":"the client navigate to the casedrive URL","id":"de751adf-befa-4b2b-9f0b-239a010d9aca"},{"location":{"line":17,"column":2},"keyword":"When ","text":"the client enters the valid email and an invalid password.","id":"f89b700d-d8f8-4ee8-b2a8-5865741ec4df"},{"location":{"line":18,"column":2},"keyword":"Then ","text":"an error popup notifies the client of an invalid password.","id":"5ec3bf47-5a6a-4255-9e66-b071d4668a9e"}],"id":"592acc6c-019b-4fa6-8543-ceeb043a6000"}},{"scenario":{"location":{"line":21,"column":1},"tags":[{"location":{"line":20,"column":1},"name":"@NegativeScenario","id":"fecf5156-82fb-498e-b61b-82116732f7b4"}],"keyword":"Scenario","name":"Verify that the client cannot log in before being converted to a client.","steps":[{"location":{"line":22,"column":2},"keyword":"Given ","text":"the client navigate to the casedrive URL","id":"bda2c0e9-9738-4d00-b203-2ca66e53949f"},{"location":{"line":23,"column":2},"keyword":"When ","text":"the client enters the non-converted valid credentials","id":"77c7bf51-0656-4ebe-b70d-67ad0c46e9ea"},{"location":{"line":24,"column":2},"keyword":"Then ","text":"an error popup notifies the client of an pending account verification.","id":"04ec7c3a-3352-4768-8925-10c3714c230b"}],"id":"09b3e888-8f6b-46db-aae8-b7a43d0e9839"}},{"scenario":{"location":{"line":27,"column":1},"tags":[{"location":{"line":26,"column":1},"name":"@NegativeScenario","id":"0f603581-0ca9-4155-80ae-e4c19e382ab9"}],"keyword":"Scenario","name":"Verify that a non-existing user cannot log in.","steps":[{"location":{"line":28,"column":2},"keyword":"Given ","text":"the client navigate to the casedrive URL","id":"279ff21f-6adf-4995-8110-2a1dbda27340"},{"location":{"line":29,"column":2},"keyword":"When ","text":"the client enters the undefined user credential","id":"f457582b-e259-46fd-9f47-7f480895515e"},{"location":{"line":30,"column":2},"keyword":"Then ","text":"an error popup notifies the client of an invalid email.","id":"56550039-bdff-48ce-83cd-9027f315d21b"}],"id":"3b05afb1-5d04-4d86-90d2-0b30c894f509"}},{"scenario":{"location":{"line":33,"column":1},"tags":[{"location":{"line":32,"column":1},"name":"@NegativeScenario","id":"4d54427f-4b33-48d5-90aa-4f5012227953"}],"keyword":"Scenario","name":"Verify that the client cannot log in when the account is inactive.","steps":[{"location":{"line":34,"column":2},"keyword":"Given ","text":"the client navigate to the casedrive URL","id":"f3718141-580e-4908-b3be-0915d09f201a"},{"location":{"line":35,"column":2},"keyword":"When ","text":"the client enters the Inactive email credential","id":"f2bb608f-fa1f-4978-8109-f4038b884aa6"},{"location":{"line":36,"column":2},"keyword":"Then ","text":"an error popup notifies the client of account inactive or removed.","id":"54ec3182-1c0c-4a63-b3e4-3acaa6052388"}],"id":"de6c9a8e-5222-4fa8-b67d-761b6e740185"}},{"scenario":{"location":{"line":39,"column":1},"tags":[{"location":{"line":38,"column":1},"name":"@NegativeScenario","id":"fe0f5725-009e-41c4-a3c0-caef295cee7c"}],"keyword":"Scenario","name":"Verify that the internal user cannot log in when the account is inactive.","steps":[{"location":{"line":40,"column":2},"keyword":"Given ","text":"the internal user navigate to the casedrive URL","id":"73a040ce-1736-45e6-b296-4cce4b9cadd5"},{"location":{"line":41,"column":2},"keyword":"When ","text":"the internal user enters the Inactive email credential","id":"a27687b1-a68a-4c70-9098-aac68f76c04c"},{"location":{"line":42,"column":2},"keyword":"Then ","text":"an error popup notifies the internal user of account inactive or removed.","id":"b1e4a86a-efca-42af-a2ad-9aa4da750f0a"}],"id":"d451af95-77fb-4800-be32-72e87f0b7c24"}}]}}},{"pickle":{"id":"a2e983f3-585d-43c6-a66a-33030074bcf1","uri":"file:///C:/Users/harikrishnan.s/casedrive_2.0_testing_automation/CaseDrive_Automation/src/test/resources/FeatureFiles/Login.feature","name":"Verify that the client can log in with valid credentials.","language":"en","steps":[{"text":"the client navigate to the casedrive URL","id":"8ecefc44-6d24-4248-a468-de34486fdc64","astNodeIds":["75292efb-562b-4a38-a89c-8cc4a9a330cf"]},{"text":"the client enters the valid credentials","id":"8d167ad5-8e57-40da-99e4-0d0ff6f23471","astNodeIds":["464b6713-aeae-48ad-bdcc-171187ec5cf7"]},{"text":"the client should navigate to the homepage","id":"5f84f7d9-74e9-4391-beac-72a2ed617418","astNodeIds":["4031fba6-4f8f-4531-ad41-6805a0e21418"]}],"tags":[{"name":"@PositiveScenario","astNodeId":"5751dc7f-421f-42c7-b5f5-506d3e9e9540"}],"astNodeIds":["629803c8-0735-470c-87f4-b6de05cbbf32"]}},{"pickle":{"id":"30a2652d-a0f2-4eef-a212-f8fc65a0af68","uri":"file:///C:/Users/harikrishnan.s/casedrive_2.0_testing_automation/CaseDrive_Automation/src/test/resources/FeatureFiles/Login.feature","name":"Verify that the client cannot log in with an invalid email credential.","language":"en","steps":[{"text":"the client navigate to the casedrive URL","id":"d4903a6f-5fb2-40cf-a5af-b5800f5bfd35","astNodeIds":["19a69e9a-ecfe-4984-a156-3f2a7ee47361"]},{"text":"the client enters the invalid email credential","id":"8a64ba00-ed3f-440b-a755-b1c746c31339","astNodeIds":["f0ab2944-bd53-43f5-aa43-0f99fd812b35"]},{"text":"an error popup notifies the client of an invalid email.","id":"cf605d48-bacd-4c39-8448-cf350c8e94cb","astNodeIds":["e4f6f8e1-5dec-4099-b443-8db679e311f9"]}],"tags":[{"name":"@NegativeScenario","astNodeId":"2b418b83-a53a-49e1-bebc-bcf2ba4a5935"}],"astNodeIds":["046c2b5c-d6e5-49cc-90f6-71343fd68668"]}},{"pickle":{"id":"0c0eacf3-8f67-4ba6-802c-fb23688a0772","uri":"file:///C:/Users/harikrishnan.s/casedrive_2.0_testing_automation/CaseDrive_Automation/src/test/resources/FeatureFiles/Login.feature","name":"Verify that the client cannot log in with a valid email and an invalid password.","language":"en","steps":[{"text":"the client navigate to the casedrive URL","id":"613b6d16-ec9c-4c80-9255-fe434e104a4a","astNodeIds":["de751adf-befa-4b2b-9f0b-239a010d9aca"]},{"text":"the client enters the valid email and an invalid password.","id":"197af956-c3a1-4834-bea9-ff5ec188385a","astNodeIds":["f89b700d-d8f8-4ee8-b2a8-5865741ec4df"]},{"text":"an error popup notifies the client of an invalid password.","id":"46c4fb46-a97b-468f-9a0f-da6b4490fec0","astNodeIds":["5ec3bf47-5a6a-4255-9e66-b071d4668a9e"]}],"tags":[{"name":"@NegativeScenario","astNodeId":"23ba61fb-42f5-4ff8-86d6-51c7a2aa913b"}],"astNodeIds":["592acc6c-019b-4fa6-8543-ceeb043a6000"]}},{"pickle":{"id":"4616a0e8-e934-4ef6-9c65-2d2a6da06127","uri":"file:///C:/Users/harikrishnan.s/casedrive_2.0_testing_automation/CaseDrive_Automation/src/test/resources/FeatureFiles/Login.feature","name":"Verify that the client cannot log in before being converted to a client.","language":"en","steps":[{"text":"the client navigate to the casedrive URL","id":"1e070a14-9f62-4719-8f58-d60f25ce7111","astNodeIds":["bda2c0e9-9738-4d00-b203-2ca66e53949f"]},{"text":"the client enters the non-converted valid credentials","id":"4b8c3b5c-8ac8-4df2-b620-a74d982e5411","astNodeIds":["77c7bf51-0656-4ebe-b70d-67ad0c46e9ea"]},{"text":"an error popup notifies the client of an pending account verification.","id":"abff33b3-f9d4-4ba1-98a9-39a27611621c","astNodeIds":["04ec7c3a-3352-4768-8925-10c3714c230b"]}],"tags":[{"name":"@NegativeScenario","astNodeId":"fecf5156-82fb-498e-b61b-82116732f7b4"}],"astNodeIds":["09b3e888-8f6b-46db-aae8-b7a43d0e9839"]}},{"pickle":{"id":"9d95fdb9-d63f-4be9-a11c-5fabf826057f","uri":"file:///C:/Users/harikrishnan.s/casedrive_2.0_testing_automation/CaseDrive_Automation/src/test/resources/FeatureFiles/Login.feature","name":"Verify that a non-existing user cannot log in.","language":"en","steps":[{"text":"the client navigate to the casedrive URL","id":"fec58ea8-f7c0-44f1-811b-f8f8ddb6f1e6","astNodeIds":["279ff21f-6adf-4995-8110-2a1dbda27340"]},{"text":"the client enters the undefined user credential","id":"a640ad98-ee5e-4f87-b54e-c5bfb568d3b4","astNodeIds":["f457582b-e259-46fd-9f47-7f480895515e"]},{"text":"an error popup notifies the client of an invalid email.","id":"a8b82af0-8ea8-4ea5-baed-ff5279031bc1","astNodeIds":["56550039-bdff-48ce-83cd-9027f315d21b"]}],"tags":[{"name":"@NegativeScenario","astNodeId":"0f603581-0ca9-4155-80ae-e4c19e382ab9"}],"astNodeIds":["3b05afb1-5d04-4d86-90d2-0b30c894f509"]}},{"pickle":{"id":"d2d134a0-b5aa-4a27-8e33-c136595bed05","uri":"file:///C:/Users/harikrishnan.s/casedrive_2.0_testing_automation/CaseDrive_Automation/src/test/resources/FeatureFiles/Login.feature","name":"Verify that the client cannot log in when the account is inactive.","language":"en","steps":[{"text":"the client navigate to the casedrive URL","id":"54101045-6a07-4716-8ec1-bcc8a4bd9445","astNodeIds":["f3718141-580e-4908-b3be-0915d09f201a"]},{"text":"the client enters the Inactive email credential","id":"3e66bee3-4369-4bae-910c-b287fee11abe","astNodeIds":["f2bb608f-fa1f-4978-8109-f4038b884aa6"]},{"text":"an error popup notifies the client of account inactive or removed.","id":"2f07849f-4355-4540-a05d-079601e242cf","astNodeIds":["54ec3182-1c0c-4a63-b3e4-3acaa6052388"]}],"tags":[{"name":"@NegativeScenario","astNodeId":"4d54427f-4b33-48d5-90aa-4f5012227953"}],"astNodeIds":["de6c9a8e-5222-4fa8-b67d-761b6e740185"]}},{"pickle":{"id":"11aaf2ce-fbef-47fe-ab4c-bf4fefdf16e6","uri":"file:///C:/Users/harikrishnan.s/casedrive_2.0_testing_automation/CaseDrive_Automation/src/test/resources/FeatureFiles/Login.feature","name":"Verify that the internal user cannot log in when the account is inactive.","language":"en","steps":[{"text":"the internal user navigate to the casedrive URL","id":"0640ae2c-32d4-4281-86c8-611ebd324ccb","astNodeIds":["73a040ce-1736-45e6-b296-4cce4b9cadd5"]},{"text":"the internal user enters the Inactive email credential","id":"4fc94c44-308b-49c5-92c2-24f72efd16f4","astNodeIds":["a27687b1-a68a-4c70-9098-aac68f76c04c"]},{"text":"an error popup notifies the internal user of account inactive or removed.","id":"0c9ad7ed-88a8-4d86-ae8b-5084ff9af2d7","astNodeIds":["b1e4a86a-efca-42af-a2ad-9aa4da750f0a"]}],"tags":[{"name":"@NegativeScenario","astNodeId":"fe0f5725-009e-41c4-a3c0-caef295cee7c"}],"astNodeIds":["d451af95-77fb-4800-be32-72e87f0b7c24"]}},{"testCase":{"id":"6d5780ba-84e7-4c17-8702-74737a24ddd3","pickleId":"a2e983f3-585d-43c6-a66a-33030074bcf1","testSteps":[{"id":"c985908c-5d5e-4b06-b7eb-960ab501e75f","pickleStepId":"8ecefc44-6d24-4248-a468-de34486fdc64","stepDefinitionIds":["878d4de3-001b-4bbd-8895-23b08f89b0f8"],"stepMatchArgumentsLists":[{}]},{"id":"b16901fe-c428-472f-b06d-b3b13f9530c2","pickleStepId":"8d167ad5-8e57-40da-99e4-0d0ff6f23471","stepDefinitionIds":["e0f2f2b3-c210-46f7-923d-9b90deee3bd2"],"stepMatchArgumentsLists":[{}]},{"id":"e48540f8-9e2b-4f2b-a5cd-17c2f4822ea8","pickleStepId":"5f84f7d9-74e9-4391-beac-72a2ed617418","stepDefinitionIds":["2dd8323d-fd77-4cbb-a660-16d8dbd9547a"],"stepMatchArgumentsLists":[{}]}]}},{"testCaseStarted":{"timestamp":{"seconds":"1738748290","nanos":876171000},"testCaseId":"6d5780ba-84e7-4c17-8702-74737a24ddd3","id":"f4267de8-b92b-46fd-b3a7-0e3aa0232392"}},{"testStepStarted":{"timestamp":{"seconds":"1738748291","nanos":6177000},"testStepId":"c985908c-5d5e-4b06-b7eb-960ab501e75f","testCaseStartedId":"f4267de8-b92b-46fd-b3a7-0e3aa0232392"}},{"testStepFinished":{"testStepResult":{"status":"FAILED","message":"java.lang.IllegalArgumentException: Environment URL not provided. Please set \u0027env.url\u0027 in Run Configuration.\r\n\tat baseclass.LibGlobal.openURL(LibGlobal.java:33)\r\n\tat stepdefinition.LoginStepdefinition.the_client_navigate_to_the_casedrive_url(LoginStepdefinition.java:23)\r\n\tat ✽.the client navigate to the casedrive URL(file:///C:/Users/harikrishnan.s/casedrive_2.0_testing_automation/CaseDrive_Automation/src/test/resources/FeatureFiles/Login.feature:4)\r\n","duration":{"seconds":"3","nanos":413023900}},"timestamp":{"seconds":"1738748294","nanos":419200900},"testStepId":"c985908c-5d5e-4b06-b7eb-960ab501e75f","testCaseStartedId":"f4267de8-b92b-46fd-b3a7-0e3aa0232392"}},{"testStepStarted":{"timestamp":{"seconds":"1738748294","nanos":456142400},"testStepId":"b16901fe-c428-472f-b06d-b3b13f9530c2","testCaseStartedId":"f4267de8-b92b-46fd-b3a7-0e3aa0232392"}},{"testStepFinished":{"testStepResult":{"status":"SKIPPED","duration":{"nanos":1001700}},"timestamp":{"seconds":"1738748294","nanos":457144100},"testStepId":"b16901fe-c428-472f-b06d-b3b13f9530c2","testCaseStartedId":"f4267de8-b92b-46fd-b3a7-0e3aa0232392"}},{"testStepStarted":{"timestamp":{"seconds":"1738748294","nanos":459176700},"testStepId":"e48540f8-9e2b-4f2b-a5cd-17c2f4822ea8","testCaseStartedId":"f4267de8-b92b-46fd-b3a7-0e3aa0232392"}},{"testStepFinished":{"testStepResult":{"status":"SKIPPED","duration":{"nanos":961100}},"timestamp":{"seconds":"1738748294","nanos":460137800},"testStepId":"e48540f8-9e2b-4f2b-a5cd-17c2f4822ea8","testCaseStartedId":"f4267de8-b92b-46fd-b3a7-0e3aa0232392"}},{"testCaseFinished":{"timestamp":{"seconds":"1738748294","nanos":460907100},"testCaseStartedId":"f4267de8-b92b-46fd-b3a7-0e3aa0232392"}},{"testCase":{"id":"00739799-8aaa-4130-a30f-2caddc092b66","pickleId":"30a2652d-a0f2-4eef-a212-f8fc65a0af68","testSteps":[{"id":"2e615a31-d78f-4075-9cd6-4097fe0fd43b","pickleStepId":"d4903a6f-5fb2-40cf-a5af-b5800f5bfd35","stepDefinitionIds":["d04ffca7-a148-4652-8102-e6b95426d290"],"stepMatchArgumentsLists":[{}]},{"id":"14744316-4239-4be3-9c66-e6d98cabbf48","pickleStepId":"8a64ba00-ed3f-440b-a755-b1c746c31339","stepDefinitionIds":["b0947352-c747-4166-8d23-7f9f7b68ddae"],"stepMatchArgumentsLists":[{}]},{"id":"a6e21f95-f13e-445b-94c9-97b85950e37b","pickleStepId":"cf605d48-bacd-4c39-8448-cf350c8e94cb","stepDefinitionIds":["c999176d-b39a-46e6-9b88-4aab04aadd90"],"stepMatchArgumentsLists":[{}]}]}},{"testCaseStarted":{"timestamp":{"seconds":"1738748294","nanos":639099200},"testCaseId":"00739799-8aaa-4130-a30f-2caddc092b66","id":"0c5f21a6-e3af-4862-a8a6-a73546ef5ddb"}},{"testStepStarted":{"timestamp":{"seconds":"1738748294","nanos":640096800},"testStepId":"2e615a31-d78f-4075-9cd6-4097fe0fd43b","testCaseStartedId":"0c5f21a6-e3af-4862-a8a6-a73546ef5ddb"}},{"testStepFinished":{"testStepResult":{"status":"FAILED","message":"java.lang.IllegalArgumentException: Environment URL not provided. Please set \u0027env.url\u0027 in Run Configuration.\r\n\tat baseclass.LibGlobal.openURL(LibGlobal.java:33)\r\n\tat stepdefinition.LoginStepdefinition.the_client_navigate_to_the_casedrive_url(LoginStepdefinition.java:23)\r\n\tat ✽.the client navigate to the casedrive URL(file:///C:/Users/harikrishnan.s/casedrive_2.0_testing_automation/CaseDrive_Automation/src/test/resources/FeatureFiles/Login.feature:10)\r\n","duration":{"seconds":"1","nanos":911214400}},"timestamp":{"seconds":"1738748296","nanos":551311200},"testStepId":"2e615a31-d78f-4075-9cd6-4097fe0fd43b","testCaseStartedId":"0c5f21a6-e3af-4862-a8a6-a73546ef5ddb"}},{"testStepStarted":{"timestamp":{"seconds":"1738748296","nanos":566008100},"testStepId":"14744316-4239-4be3-9c66-e6d98cabbf48","testCaseStartedId":"0c5f21a6-e3af-4862-a8a6-a73546ef5ddb"}},{"testStepFinished":{"testStepResult":{"status":"SKIPPED","duration":{"nanos":999000}},"timestamp":{"seconds":"1738748296","nanos":567007100},"testStepId":"14744316-4239-4be3-9c66-e6d98cabbf48","testCaseStartedId":"0c5f21a6-e3af-4862-a8a6-a73546ef5ddb"}},{"testStepStarted":{"timestamp":{"seconds":"1738748296","nanos":567916600},"testStepId":"a6e21f95-f13e-445b-94c9-97b85950e37b","testCaseStartedId":"0c5f21a6-e3af-4862-a8a6-a73546ef5ddb"}},{"testStepFinished":{"testStepResult":{"status":"SKIPPED","duration":{"nanos":810900}},"timestamp":{"seconds":"1738748296","nanos":568727500},"testStepId":"a6e21f95-f13e-445b-94c9-97b85950e37b","testCaseStartedId":"0c5f21a6-e3af-4862-a8a6-a73546ef5ddb"}},{"testCaseFinished":{"timestamp":{"seconds":"1738748296","nanos":568855300},"testCaseStartedId":"0c5f21a6-e3af-4862-a8a6-a73546ef5ddb"}},{"testCase":{"id":"3e221df8-eed5-4c60-b09f-799877dfc165","pickleId":"0c0eacf3-8f67-4ba6-802c-fb23688a0772","testSteps":[{"id":"d7d9a0c7-3bb4-4b71-80f3-caa283aa3de4","pickleStepId":"613b6d16-ec9c-4c80-9255-fe434e104a4a","stepDefinitionIds":["9b033ae2-3e5d-4f8b-8fd8-c535168a141a"],"stepMatchArgumentsLists":[{}]},{"id":"6d48f510-3542-400a-8805-0d5fd2d5ea69","pickleStepId":"197af956-c3a1-4834-bea9-ff5ec188385a","stepDefinitionIds":["7c5ec449-384f-4405-ba46-e8f30e0a918a"],"stepMatchArgumentsLists":[{}]},{"id":"cdb57104-7972-4a3f-91e7-c6c03ef315c6","pickleStepId":"46c4fb46-a97b-468f-9a0f-da6b4490fec0","stepDefinitionIds":["d0922f94-c363-41de-990f-5cbab8770b16"],"stepMatchArgumentsLists":[{}]}]}},{"testCaseStarted":{"timestamp":{"seconds":"1738748296","nanos":727118500},"testCaseId":"3e221df8-eed5-4c60-b09f-799877dfc165","id":"f840c149-47b0-456e-a975-35c9ef07fdda"}},{"testStepStarted":{"timestamp":{"seconds":"1738748296","nanos":729109800},"testStepId":"d7d9a0c7-3bb4-4b71-80f3-caa283aa3de4","testCaseStartedId":"f840c149-47b0-456e-a975-35c9ef07fdda"}},{"testStepFinished":{"testStepResult":{"status":"FAILED","message":"java.lang.IllegalArgumentException: Environment URL not provided. Please set \u0027env.url\u0027 in Run Configuration.\r\n\tat baseclass.LibGlobal.openURL(LibGlobal.java:33)\r\n\tat stepdefinition.LoginStepdefinition.the_client_navigate_to_the_casedrive_url(LoginStepdefinition.java:23)\r\n\tat ✽.the client navigate to the casedrive URL(file:///C:/Users/harikrishnan.s/casedrive_2.0_testing_automation/CaseDrive_Automation/src/test/resources/FeatureFiles/Login.feature:16)\r\n","duration":{"seconds":"2","nanos":238116000}},"timestamp":{"seconds":"1738748298","nanos":967225800},"testStepId":"d7d9a0c7-3bb4-4b71-80f3-caa283aa3de4","testCaseStartedId":"f840c149-47b0-456e-a975-35c9ef07fdda"}},{"testStepStarted":{"timestamp":{"seconds":"1738748298","nanos":979020400},"testStepId":"6d48f510-3542-400a-8805-0d5fd2d5ea69","testCaseStartedId":"f840c149-47b0-456e-a975-35c9ef07fdda"}},{"testStepFinished":{"testStepResult":{"status":"SKIPPED","duration":{}},"timestamp":{"seconds":"1738748298","nanos":979020400},"testStepId":"6d48f510-3542-400a-8805-0d5fd2d5ea69","testCaseStartedId":"f840c149-47b0-456e-a975

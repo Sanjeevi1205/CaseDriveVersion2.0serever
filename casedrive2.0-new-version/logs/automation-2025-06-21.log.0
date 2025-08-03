@@ -1,0 +1,446 @@
+Jun 21, 2025 4:34:07 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-21.log
+Jun 21, 2025 4:34:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 21, 2025 4:34:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 21, 2025 4:34:12 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 21, 2025 4:34:49 PM baseclass.LibGlobal verifySuccessMessage
+INFO: Success message found: true | Actual text: Your order has been placed successfully.
+Jun 21, 2025 4:34:49 PM stepdefinition.OrderIntake finallyVerifiesWhetherTheEnteredCaseNumberIsBeingReflectedInTheCaselistPage
+INFO: Case number matches expected prefix: true
+Jun 21, 2025 4:34:49 PM stepdefinition.OrderIntake finallyVerifiesWhetherTheEnteredCaseNumberIsBeingReflectedInTheCaselistPage
+INFO: Actual case number: AUTO_163441
+Jun 21, 2025 4:34:49 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Status: Estimation in Process
+Jun 21, 2025 4:34:49 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Version: New Case
+Jun 21, 2025 4:34:49 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Priority: Standard
+Jun 21, 2025 4:34:49 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: One or more conditions do not match.
+Jun 21, 2025 4:34:50 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+Jun 21, 2025 4:35:01 PM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: New Case from LDTM001-C241
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: New Case from LDTM001-C241
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-06-21T11:07:44.000Z
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: info@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: info@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → no-reply@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → mail@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff2@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff19@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff20@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff492@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff493@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff494@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff503@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff506@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff622@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → managermailtest@gmail.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20164941@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee900@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4473@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4177@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee108@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee106@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8254@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5901@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee7215@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee683@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4787@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9016@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6695@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5134@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9450@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5464@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4461@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee551@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4397@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6590@lezdotechmed.com
+Jun 21, 2025 4:35:02 PM mailtrap.MailTrapAPI fetchAndLogEmailContent
+INFO: Extracted Content:
+New Case Received
+
+
+
+
+LDTM001-C241 has uploaded a new case. The particulars of the case are as follows: Case Name: Michael  Test_0621163441Order Date: 06-21-2025 Priority: Standard  Desired Services: Medical Chronology,Deposition Summary,Hyperlinks&nbsp;
+Jun 21, 2025 4:35:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 21, 2025 4:35:03 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 21, 2025 4:35:03 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 21, 2025 4:35:36 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleDOCFile_200kb.doc added for upload.
+Jun 21, 2025 4:35:36 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleGIFImage_40kbmb.gif added for upload.
+Jun 21, 2025 4:35:36 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePDFFile_5mb.pdf added for upload.
+Jun 21, 2025 4:35:36 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePNGImage_100kbmb.png added for upload.
+Jun 21, 2025 4:35:36 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePPTFile_500kb.ppt added for upload.
+Jun 21, 2025 4:35:37 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SamplePSDFile_1.9mbmb.psd added for upload.
+Jun 21, 2025 4:35:37 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File C:\Users\benish.s\Automation CaseDrive\casedrive_2.0_testing_automation\CaseDrive_Automation\src\test\resources\Test File Upload\SampleTextFile_10kb.txt added for upload.
+Jun 21, 2025 4:35:40 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: FileUpload Completed 100%: 100
+Jun 21, 2025 4:35:52 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: Unable to find enough file upload confirmation elements.
+Jun 21, 2025 4:35:52 PM stepdefinition.ClientCaseList theClientUploadsDifferentFileTypes
+INFO: File upload confirmation 7 is visible.
+Jun 21, 2025 4:36:02 PM baseclass.LibGlobal verifySuccessMessage
+INFO: Success message found: true | Actual text: Your order has been placed successfully.
+Jun 21, 2025 4:36:02 PM stepdefinition.OrderIntake finallyVerifiesWhetherTheCaseNumberIsGeneratedAutomaticallyInTheCaselistPage
+INFO: Case number matches expected prefix: true
+Jun 21, 2025 4:36:02 PM stepdefinition.OrderIntake finallyVerifiesWhetherTheCaseNumberIsGeneratedAutomaticallyInTheCaselistPage
+INFO: Actual case number: LDML-9911
+Jun 21, 2025 4:36:03 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Status: Open
+Jun 21, 2025 4:36:03 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Version: New Case
+Jun 21, 2025 4:36:03 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: Case Priority: Standard
+Jun 21, 2025 4:36:03 PM stepdefinition.OrderIntake theClientVerifiesCaseDetails
+INFO: All conditions are met. The case status, version, and priority are correct.
+Jun 21, 2025 4:36:03 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+Jun 21, 2025 4:36:14 PM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: New Case from LDTM001-C241
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: New Case from LDTM001-C241
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-06-21T11:07:44.000Z
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: info@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: info@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → no-reply@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → mail@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff2@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff19@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff20@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff492@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff493@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff494@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff503@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff506@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → teststaff622@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → managermailtest@gmail.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → testemployee20164941@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee900@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4473@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4177@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee108@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee106@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee8254@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5901@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee7215@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee683@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4787@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9016@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6695@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5134@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee9450@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee5464@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4461@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee551@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee4397@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → employee6590@lezdotechmed.com
+Jun 21, 2025 4:36:15 PM mailtrap.MailTrapAPI fetchAndLogEmailContent
+INFO: Extracted Content:
+New Case Received
+
+
+
+
+LDTM001-C241 has uploaded a new case. The particulars of the case are as follows: Case Name: Michael  Test_0621163441Order Date: 06-21-2025 Priority: Standard  Desired Services: Medical Chronology,Deposition Summary,Hyperlinks&nbsp;
+Jun 21, 2025 4:36:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 21, 2025 4:36:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 21, 2025 4:36:16 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 21, 2025 4:36:51 PM stepdefinition.OrderIntake theClientVerifiesThatAnErrorMessageIsDisplayedIndicatingFilesMustBeUploadedAndOverviewErrorIsShown
+INFO: Verified that the error message for missing file upload is displayed.
+Jun 21, 2025 4:36:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 21, 2025 4:36:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 21, 2025 4:36:52 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 21, 2025 4:37:29 PM helper.CaseHelper assertDownloadOutcome
+INFO: No alert appeared.Checking for error message...
+Jun 21, 2025 4:37:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 21, 2025 4:37:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 21, 2025 4:37:30 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 21, 2025 4:40:14 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-21.log
+Jun 21, 2025 4:40:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 21, 2025 4:40:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 21, 2025 4:40:16 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 21, 2025 4:40:54 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+Jun 21, 2025 4:41:17 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-21.log
+Jun 21, 2025 4:41:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 21, 2025 4:41:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 21, 2025 4:41:19 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 21, 2025 4:42:10 PM helper.CaseHelper assertDownloadOutcome
+INFO: No alert appeared.Checking for error message...
+Jun 21, 2025 4:42:11 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+Jun 21, 2025 4:46:10 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-21.log
+Jun 21, 2025 4:46:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 21, 2025 4:46:13 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 21, 2025 4:46:13 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 21, 2025 4:46:45 PM helper.CaseHelper assertDownloadOutcome
+INFO: No alert appeared.Checking for error message...
+Jun 21, 2025 4:46:46 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+Jun 21, 2025 4:47:44 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-21.log
+Jun 21, 2025 4:47:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 21, 2025 4:47:46 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 21, 2025 4:47:46 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 21, 2025 4:48:28 PM baseclass.LibGlobal verifySuccessMessage
+INFO: Success message found: true | Actual text: Mail sent successfully.
+Jun 21, 2025 4:48:28 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+Jun 21, 2025 4:48:45 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-21.log
+Jun 21, 2025 4:48:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 21, 2025 4:48:48 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 21, 2025 4:48:48 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 21, 2025 4:49:11 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-21.log
+Jun 21, 2025 4:49:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 21, 2025 4:49:13 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 21, 2025 4:49:13 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 21, 2025 4:49:42 PM helper.CaseHelper assertDownloadOutcome
+INFO: No alert appeared.Checking for error message...
+Jun 21, 2025 4:49:45 PM helper.CaseHelper assertDownloadOutcome
+INFO: No error message appeared.
+Jun 21, 2025 4:49:45 PM helper.CaseHelper assertDownloadOutcome
+INFO: Download considered successful OR may be slow due to file size as no error appeared.
+Jun 21, 2025 4:49:53 PM baseclass.LibGlobal verifySuccessMessage
+INFO: Success message found: true | Actual text: Mail sent successfully.
+Jun 21, 2025 4:49:53 PM mailtrap.MailTrapAPI verifyLatestEmailSubjectAndBCC
+INFO: Waiting 10 seconds before fetching emails...
+Jun 21, 2025 4:50:04 PM mailtrap.MailTrapAPI processMessages
+INFO: Found matching subject: Request: Sign and Upload the Authorization Form
+Jun 21, 2025 4:50:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Subject: Request: Sign and Upload the Authorization Form
+Jun 21, 2025 4:50:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Sent At: 2025-06-21T11:22:37.000Z
+Jun 21, 2025 4:50:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: From Email: no-reply@lezdotechmed.com
+Jun 21, 2025 4:50:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: SMTP From: no-reply@lezdotechmed.com
+Jun 21, 2025 4:50:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO: Recipients:
+Jun 21, 2025 4:50:04 PM mailtrap.MailTrapAPI fetchAndLogEmailDetails
+INFO:  → benlythepatient@lezdo.com
+Jun 21, 2025 4:50:05 PM mailtrap.MailTrapAPI fetchAndLogEmailContent
+WARNING: Email content <div class="content-text"> not found.
+Jun 21, 2025 4:50:05 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+Jun 21, 2025 5:16:24 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-21.log
+Jun 21, 2025 5:16:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 21, 2025 5:16:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 21, 2025 5:16:28 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 21, 2025 5:17:34 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+Jun 21, 2025 10:47:42 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-21.log
+Jun 21, 2025 10:47:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 21, 2025 10:47:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 21, 2025 10:47:47 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 21, 2025 10:48:19 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+Jun 21, 2025 10:48:43 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-21.log
+Jun 21, 2025 10:48:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 21, 2025 10:48:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 21, 2025 10:48:45 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 21, 2025 10:49:11 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+Jun 21, 2025 10:52:12 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-21.log
+Jun 21, 2025 10:52:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 21, 2025 10:52:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 21, 2025 10:52:14 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 21, 2025 10:52:42 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+Jun 21, 2025 10:53:22 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-21.log
+Jun 21, 2025 10:53:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 21, 2025 10:53:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 21, 2025 10:53:24 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 21, 2025 10:54:14 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+Jun 21, 2025 11:39:04 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-21.log
+Jun 21, 2025 11:39:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 21, 2025 11:39:06 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 21, 2025 11:39:06 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 21, 2025 11:39:49 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+Jun 21, 2025 11:40:20 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-21.log
+Jun 21, 2025 11:40:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 21, 2025 11:40:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 21, 2025 11:40:22 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 21, 2025 11:41:02 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+Jun 21, 2025 11:44:45 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-21.log
+Jun 21, 2025 11:44:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 21, 2025 11:44:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 21, 2025 11:44:47 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 21, 2025 11:45:20 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+Jun 21, 2025 11:49:39 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-21.log
+Jun 21, 2025 11:49:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 21, 2025 11:49:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 21, 2025 11:49:42 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 21, 2025 11:50:33 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+Jun 21, 2025 11:52:59 PM baseclass.LibGlobal <clinit>
+INFO: Logging initialized with daily log file: logs/automation-2025-06-21.log
+Jun 21, 2025 11:53:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 21, 2025 11:53:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 21, 2025 11:53:01 PM baseclass.LibGlobal openURL
+INFO: Environment URL from system property: https://testing-accounts.lezdotechmed.com/
+Jun 21, 2025 11:54:01 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.

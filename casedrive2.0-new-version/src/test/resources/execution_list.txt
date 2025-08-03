@@ -1,0 +1,3 @@
+src/test/resources/FeatureFiles/01_Signup.feature
+src/test/resources/FeatureFiles/03_Login.feature
+src/test/resources/FeatureFiles/01_Signup.feature
