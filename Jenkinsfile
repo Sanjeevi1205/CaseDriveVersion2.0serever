@@ -3,7 +3,7 @@ pipeline {
         dockerfile {
             filename 'Dockerfile'
             dir '.'
-            label 'docker-agent'
+            // Removed label 'docker-agent' to avoid scheduling issues
         }
     }
 
@@ -19,6 +19,9 @@ pipeline {
     stages {
         stage('Run Tests in Docker') {
             steps {
+                script {
+                    echo "Running tests with ENV_URL: ${params.ENV_URL}, CUCUMBER_TAGS: ${params.CUCUMBER_TAGS}"
+                }
                 sh """
                     mvn clean test \
                         -Dtest=runner.RunnerClass2 \
@@ -33,6 +36,7 @@ pipeline {
 
     post {
         always {
+            // Wrap post steps in node block implicitly since agent is set
             archiveArtifacts artifacts: "test-output/PdfReport/ExtentPdf.pdf, logs/automation-${env.LOG_DATE}.log.0", fingerprint: true
             junit '**/target/surefire-reports/*.xml'
         }
